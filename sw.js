@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quicksos-v2';
+const CACHE_NAME = 'quicksos-v3';
 const ASSETS = [
   '/',
   '/index.html',

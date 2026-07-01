@@ -95,79 +95,6 @@ main {
   color: var(--text);
 }
 
-.contact-card {
-  background: var(--card-bg);
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.contact-info h3 {
-  font-size: 1rem;
-  margin-bottom: 4px;
-  color: var(--text);
-}
-
-.contact-info p {
-  font-size: 0.875rem;
-  color: var(--text-light);
-}
-
-.contact-number {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.call-btn {
-  background: var(--primary);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 16px;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background 0.2s;
-}
-
-.call-btn:hover {
-  background: var(--primary-dark);
-}
-
-footer {
-  text-align: center;
-  padding: 20px 0;
-  color: var(--text-light);
-  font-size: 0.875rem;
-}
-
-.error {
-  color: var(--primary);
-  text-align: center;
-  padding: 20px;
-}
-
-.retry-btn {
-  background: var(--primary);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 12px 24px;
-  font-size: 1rem;
-  cursor: pointer;
-  margin-top: 16px;
-}
-
-.retry-btn:hover {
-  background: var(--primary-dark);
-}
-
 /* District Selector */
 #manual-selector {
   background: var(--card-bg);
@@ -259,6 +186,12 @@ footer {
   color: var(--text-light);
 }
 
+.contact-number {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .call-btn {
   background: var(--primary);
   color: white;
@@ -274,5 +207,33 @@ footer {
 }
 
 .call-btn:hover {
+  background: var(--primary-dark);
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: var(--text-light);
+  font-size: 0.875rem;
+}
+
+.error {
+  color: var(--primary);
+  text-align: center;
+  padding: 20px;
+}
+
+.retry-btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.retry-btn:hover {
   background: var(--primary-dark);
 }
