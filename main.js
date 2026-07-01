@@ -1,12 +1,4 @@
-const EMERGENCY_CONTACTS = [
-  { name: 'Polis (Police)', number: '999', description: 'Police Emergency' },
-  { name: 'Bomba (Fire & Rescue)', number: '994', description: 'Fire & Rescue' },
-  { name: 'Ambulans (Ambulance)', number: '999', description: 'Medical Emergency' },
-  { name: 'Jabatan Pertahanan Awam', number: '991', description: 'Civil Defence' },
-  { name: 'APM (Mercy Malaysia)', number: '03-8911 1111', description: 'Disaster Relief' },
-  { name: 'Bantuan Rela', number: '03-8064 2400', description: 'Volunteer Corps' },
-  { name: 'TELEBOM', number: '1-800-88-8888', description: 'Mental Health Crisis' }
-];
+import { getEmergencyContacts } from './src/data-loader.js';
 
 const statusText = document.getElementById('status-text');
 const spinner = document.getElementById('spinner');
@@ -20,22 +12,96 @@ function showLocationStatus(message, isError = false) {
   statusText.textContent = message;
   if (isError) {
     statusText.classList.add('error');
-    statusText.innerHTML += '<br><button class="retry-btn" onclick="getLocation()">Try Again</button>';
+    statusText.innerHTML += '<br><button class="retry-btn" onclick="getLocation()">Cuba Lagi</button>';
   }
 }
 
-function renderContacts(contacts) {
+function renderFacilities(facilities, stateFacilities, level) {
   contactsList.innerHTML = '';
-  contacts.forEach(contact => {
+  
+  const items = [];
+  
+  if (level === 'district' && facilities) {
+    if (facilities.hospital) {
+      items.push({
+        icon: '🏥',
+        name: facilities.hospital.name,
+        number: facilities.hospital.phone,
+        type: 'Hospital'
+      });
+    }
+    if (facilities.police) {
+      items.push({
+        icon: '🚔',
+        name: facilities.police.name,
+        number: facilities.police.phone,
+        type: 'Polis'
+      });
+    }
+    if (facilities.fire) {
+      items.push({
+        icon: '🚒',
+        name: facilities.fire.name,
+        number: facilities.fire.phone,
+        type: 'Bomba'
+      });
+    }
+    if (facilities.apm) {
+      items.push({
+        icon: '🛡️',
+        name: facilities.apm.name,
+        number: facilities.apm.phone,
+        type: 'APM'
+      });
+    }
+  }
+  
+  if (level === 'state' && stateFacilities) {
+    if (stateFacilities.police) {
+      items.push({
+        icon: '🚔',
+        name: stateFacilities.police.name,
+        number: stateFacilities.police.phone,
+        type: 'Polis (Negeri)'
+      });
+    }
+    if (stateFacilities.fire) {
+      items.push({
+        icon: '🚒',
+        name: stateFacilities.fire.name,
+        number: stateFacilities.fire.phone,
+        type: 'Bomba (Negeri)'
+      });
+    }
+    if (stateFacilities.apm) {
+      items.push({
+        icon: '🛡️',
+        name: stateFacilities.apm.name,
+        number: stateFacilities.apm.phone,
+        type: 'APM (Negeri)'
+      });
+    }
+  }
+  
+  if (items.length === 0) {
+    items.push(
+      { icon: '🚔', name: 'Polis', number: '999', type: 'Kecemasan' },
+      { icon: '🚒', name: 'Bomba', number: '994', type: 'Kecemasan' },
+      { icon: '🚑', name: 'Ambulans', number: '999', type: 'Kecemasan' },
+      { icon: '🛡️', name: 'APM', number: '03-2687 1400', type: 'Kecemasan' }
+    );
+  }
+  
+  items.forEach(item => {
     const card = document.createElement('div');
     card.className = 'contact-card';
     card.innerHTML = `
       <div class="contact-info">
-        <h3>${contact.name}</h3>
-        <p>${contact.description}</p>
+        <h3>${item.icon} ${item.name}</h3>
+        <p>${item.type}</p>
       </div>
       <div class="contact-number">
-        <a href="tel:${contact.number}" class="call-btn">${contact.number}</a>
+        <a href="tel:${item.number}" class="call-btn">${item.number}</a>
       </div>
     `;
     contactsList.appendChild(card);
@@ -45,7 +111,7 @@ function renderContacts(contacts) {
 async function reverseGeocode(lat, lon) {
   try {
     const response = await fetch(
-      `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}&zoom=10`
+      `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}&zoom=10&accept-language=ms`
     );
     const data = await response.json();
     return data.address;
@@ -57,17 +123,17 @@ async function reverseGeocode(lat, lon) {
 
 async function getLocation() {
   if (!navigator.geolocation) {
-    showLocationStatus('Geolocation is not supported by your browser', true);
+    showLocationStatus('Geolocation tidak disokong oleh pelayar anda', true);
     return;
   }
 
-  showLocationStatus('Getting your location...');
+  showLocationStatus('Mendapatkan lokasi anda...');
 
   navigator.geolocation.getCurrentPosition(
     async (position) => {
       const { latitude, longitude } = position.coords;
       
-      showLocationStatus('Finding emergency numbers for your area...');
+      showLocationStatus('Mencari nombor kecemasan untuk kawasan anda...');
       
       const address = await reverseGeocode(latitude, longitude);
       
@@ -78,23 +144,25 @@ async function getLocation() {
       locationName.textContent = `📍 ${locationText}`;
       locationInfo.classList.remove('hidden');
       
-      renderContacts(EMERGENCY_CONTACTS);
+      const result = await getEmergencyContacts(address);
+      
+      renderFacilities(result.facilities, result.stateFacilities, result.level);
       
       spinner.style.display = 'none';
       statusText.textContent = '';
       emergencyContacts.classList.remove('hidden');
     },
     (error) => {
-      let message = 'Unable to get your location';
+      let message = 'Tidak dapat mendapatkan lokasi anda';
       switch (error.code) {
         case error.PERMISSION_DENIED:
-          message = 'Location access denied. Please enable location permissions.';
+          message = 'Akses lokasi ditolak. Sila aktifkan kebenaran lokasi.';
           break;
         case error.POSITION_UNAVAILABLE:
-          message = 'Location information is unavailable.';
+          message = 'Maklumat lokasi tidak tersedia.';
           break;
         case error.TIMEOUT:
-          message = 'Location request timed out.';
+          message = 'Permintaan lokasi tamat masa.';
           break;
       }
       showLocationStatus(message, true);
