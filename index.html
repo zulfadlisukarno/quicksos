@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ms">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,21 +26,38 @@
     <main>
       <div id="location-status" class="status">
         <div class="spinner" id="spinner"></div>
-        <p id="status-text">Getting your location...</p>
+        <p id="status-text">Mendapatkan lokasi anda...</p>
       </div>
 
       <div id="location-info" class="hidden">
         <p id="location-name"></p>
       </div>
 
+      <div id="manual-selector" class="hidden">
+        <h3>Pilih Lokasi Anda</h3>
+        <div class="selector-group">
+          <label for="state-select">Negeri:</label>
+          <select id="state-select">
+            <option value="">-- Pilih Negeri --</option>
+          </select>
+        </div>
+        <div class="selector-group">
+          <label for="district-select">Daerah:</label>
+          <select id="district-select" disabled>
+            <option value="">-- Pilih Daerah --</option>
+          </select>
+        </div>
+        <button id="search-btn" class="search-btn" disabled>Tunjukkan Nombor</button>
+      </div>
+
       <div id="emergency-contacts" class="hidden">
-        <h2>Emergency Contacts</h2>
+        <h2>Nombor Kecemasan</h2>
         <div id="contacts-list"></div>
       </div>
     </main>
 
     <footer>
-      <p>Stay safe. Save lives.</p>
+      <p>Selamat. Selamatkan nyawa.</p>
     </footer>
   </div>
 
