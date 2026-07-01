@@ -167,3 +167,112 @@ footer {
 .retry-btn:hover {
   background: var(--primary-dark);
 }
+
+/* District Selector */
+#manual-selector {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#manual-selector h3 {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  color: var(--text);
+}
+
+.selector-group {
+  margin-bottom: 12px;
+}
+
+.selector-group label {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--text-light);
+  margin-bottom: 6px;
+}
+
+.selector-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: white;
+  color: var(--text);
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b7280' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+.selector-group select:disabled {
+  background-color: #f3f4f6;
+  cursor: not-allowed;
+}
+
+.search-btn {
+  width: 100%;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.search-btn:hover:not(:disabled) {
+  background: var(--primary-dark);
+}
+
+.search-btn:disabled {
+  background: #d1d5db;
+  cursor: not-allowed;
+}
+
+/* Facility Cards */
+.contact-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+  color: var(--text);
+}
+
+.contact-info p {
+  font-size: 0.875rem;
+  color: var(--text-light);
+}
+
+.call-btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s;
+  display: inline-block;
+}
+
+.call-btn:hover {
+  background: var(--primary-dark);
+}
