@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="QuickSOS - Nombor kecemasan di sekitar anda">
+  <meta name="theme-color" content="#dc2626">
+  
+  <!-- iOS PWA Support -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="QuickSOS">
+  <link rel="apple-touch-icon" href="/icon-192.png">
+  
+  <link rel="manifest" href="/manifest.json">
+  <title>QuickSOS</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>🚨 QuickSOS</h1>
+      <p class="tagline">Nombor kecemasan di sekitar anda</p>
+    </header>
+
+    <main>
+      <div id="location-status" class="status">
+        <div class="spinner" id="spinner"></div>
+        <p id="status-text">Getting your location...</p>
+      </div>
+
+      <div id="location-info" class="hidden">
+        <p id="location-name"></p>
+      </div>
+
+      <div id="emergency-contacts" class="hidden">
+        <h2>Emergency Contacts</h2>
+        <div id="contacts-list"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Stay safe. Save lives.</p>
+    </footer>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+            console.log('SW registered:', registration);
+          })
+          .catch(error => {
+            console.log('SW registration failed:', error);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
