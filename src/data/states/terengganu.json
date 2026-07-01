@@ -1,0 +1,37 @@
+{
+  "state": "terengganu",
+  "state_name": "Terengganu",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": { "name": "IPK Terengganu", "phone": "09-6354722" },
+    "fire": { "name": "JBPM Terengganu", "phone": "09-6321444" },
+    "apm": { "name": "APM Terengganu", "phone": "09-6668246" }
+  },
+  "districts": [
+    {
+      "district": "kuala-terengganu",
+      "district_name": "Kuala Terengganu",
+      "aliases": ["kuala terengganu", "kt", "kuala terengganu"],
+      "facilities": { "police": { "name": "IPD Kuala Terengganu", "phone": "09-6322222" } }
+    },
+    {
+      "district": "kemaman",
+      "district_name": "Kemaman",
+      "aliases": ["kemaman", "kerteh"],
+      "facilities": { "police": { "name": "IPD Kemaman", "phone": "09-8592222" } }
+    },
+    {
+      "district": "besut",
+      "district_name": "Besut",
+      "aliases": ["besut", "kampung raja"],
+      "facilities": { "police": { "name": "IPD Besut", "phone": "09-6956222" } }
+    },
+    {
+      "district": "dungun",
+      "district_name": "Dungun",
+      "aliases": ["dungun"],
+      "facilities": { "police": { "name": "IPD Dungun", "phone": "09-6482222" } }
+    }
+  ]
+}

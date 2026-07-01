@@ -1,0 +1,19 @@
+{
+  "state": "putrajaya",
+  "state_name": "Putrajaya",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": { "name": "IPD Putrajaya", "phone": "03-88862222" },
+    "fire": { "name": "BBP Putrajaya", "phone": "03-88880019" },
+    "apm": { "name": "APM Putrajaya", "phone": "03-88871400" }
+  },
+  "districts": [
+    {
+      "district": "putrajaya",
+      "district_name": "Putrajaya",
+      "aliases": ["putrajaya"],
+      "facilities": { "police": { "name": "IPD Putrajaya", "phone": "03-88862222" } }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "state": "penang",
+  "state_name": "Pulau Pinang",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": { "name": "IPK Pulau Pinang", "phone": "04-2221522" },
+    "fire": { "name": "JBPM Pulau Pinang", "phone": "04-2221444" },
+    "apm": { "name": "APM Pulau Pinang", "phone": "04-2288754" }
+  },
+  "districts": [
+    {
+      "district": "timur-laut",
+      "district_name": "Timur Laut",
+      "aliases": ["timur laut", "george town", "penang"],
+      "facilities": { "police": { "name": "IPD Timur Laut", "phone": "04-2181822" } }
+    },
+    {
+      "district": "barat-daya",
+      "district_name": "Barat Daya",
+      "aliases": ["barat daya", "bayan lepas"],
+      "facilities": { "police": { "name": "IPD Barat Daya", "phone": "04-8662222" } }
+    },
+    {
+      "district": "seberang-perai-utara",
+      "district_name": "Seberang Perai Utara",
+      "aliases": ["seberang perai utara", "spu", "nibong tebal"],
+      "facilities": { "police": { "name": "IPD Seberang Perai Utara", "phone": "04-5762222" } }
+    },
+    {
+      "district": "seberang-perai-tengah",
+      "district_name": "Seberang Perai Tengah",
+      "aliases": ["seberang perai tengah", "spt", "bukit mertajam"],
+      "facilities": { "police": { "name": "IPD Seberang Perai Tengah", "phone": "04-5382222" } }
+    }
+  ]
+}

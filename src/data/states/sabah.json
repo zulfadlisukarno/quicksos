@@ -1,0 +1,37 @@
+{
+  "state": "sabah",
+  "state_name": "Sabah",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": { "name": "IPK Sabah", "phone": "088-450222" },
+    "fire": { "name": "JBPM Sabah", "phone": "088-232440" },
+    "apm": { "name": "APM Sabah", "phone": "088-232440" }
+  },
+  "districts": [
+    {
+      "district": "kota-kinabalu",
+      "district_name": "Kota Kinabalu",
+      "aliases": ["kota kinabalu", "kk"],
+      "facilities": { "police": { "name": "IPD Penampang", "phone": "088-712222" } }
+    },
+    {
+      "district": "sandakan",
+      "district_name": "Sandakan",
+      "aliases": ["sandakan"],
+      "facilities": { "police": { "name": "IPD Sandakan", "phone": "089-211222" } }
+    },
+    {
+      "district": "tawau",
+      "district_name": "Tawau",
+      "aliases": ["tawau"],
+      "facilities": { "police": { "name": "IPD Tawau", "phone": "089-752222" } }
+    },
+    {
+      "district": "lahad-datu",
+      "district_name": "Lahad Datu",
+      "aliases": ["lahad datu"],
+      "facilities": { "police": { "name": "IPD Lahad Datu", "phone": "089-881255" } }
+    }
+  ]
+}

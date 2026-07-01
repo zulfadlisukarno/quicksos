@@ -1,0 +1,49 @@
+{
+  "state": "kedah",
+  "state_name": "Kedah",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": { "name": "IPK Kedah", "phone": "04-7741222" },
+    "fire": { "name": "JBPM Kedah", "phone": "04-7323810" },
+    "apm": { "name": "APM Kedah", "phone": "04-7323810" }
+  },
+  "districts": [
+    {
+      "district": "kota-setar",
+      "district_name": "Kota Setar",
+      "aliases": ["kota setar", "alor setar", "alor star"],
+      "facilities": {
+        "hospital": { "name": "Hospital Sultanah Bahiyah", "phone": "04-7303333" },
+        "police": { "name": "IPD Kota Setar", "phone": "04-7747222" }
+      }
+    },
+    {
+      "district": "kuala-muda",
+      "district_name": "Kuala Muda",
+      "aliases": ["kuala muda", "sungai petani"],
+      "facilities": {
+        "hospital": { "name": "Hospital Sultan Abdul Halim", "phone": "04-4480095" },
+        "police": { "name": "IPD Kuala Muda", "phone": "04-4299222" }
+      }
+    },
+    {
+      "district": "kulim",
+      "district_name": "Kulim",
+      "aliases": ["kulim"],
+      "facilities": {
+        "hospital": { "name": "Hospital Kulim", "phone": "04-4909975" },
+        "police": { "name": "IPD Kulim", "phone": "04-4906222" }
+      }
+    },
+    {
+      "district": "langkawi",
+      "district_name": "Langkawi",
+      "aliases": ["langkawi"],
+      "facilities": {
+        "hospital": { "name": "Hospital Langkawi", "phone": "04-9663333" },
+        "police": { "name": "IPD Langkawi", "phone": "04-9666222" }
+      }
+    }
+  ]
+}

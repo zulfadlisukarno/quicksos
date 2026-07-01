@@ -1,0 +1,37 @@
+{
+  "state": "perak",
+  "state_name": "Perak",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": { "name": "IPK Perak", "phone": "05-2451222" },
+    "fire": { "name": "JBPM Perak", "phone": "05-2451444" },
+    "apm": { "name": "APM Perak", "phone": "05-5278715" }
+  },
+  "districts": [
+    {
+      "district": "ipoh",
+      "district_name": "Ipoh",
+      "aliases": ["ipoh"],
+      "facilities": { "police": { "name": "IPD Ipoh", "phone": "05-2451500" } }
+    },
+    {
+      "district": "taiping",
+      "district_name": "Taiping",
+      "aliases": ["taiping"],
+      "facilities": { "police": { "name": "IPD Taiping", "phone": "05-8291222" } }
+    },
+    {
+      "district": "batu-gajah",
+      "district_name": "Batu Gajah",
+      "aliases": ["batu gajah"],
+      "facilities": { "police": { "name": "IPD Batu Gajah", "phone": "05-3629222" } }
+    },
+    {
+      "district": "manjung",
+      "district_name": "Manjung",
+      "aliases": ["manjung", "sitiawan", "seri iskandar"],
+      "facilities": { "police": { "name": "IPD Manjung", "phone": "05-6899222" } }
+    }
+  ]
+}

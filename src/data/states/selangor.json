@@ -1,0 +1,37 @@
+{
+  "state": "selangor",
+  "state_name": "Selangor",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": { "name": "IPK Selangor", "phone": "03-55145222" },
+    "fire": { "name": "JBPM Selangor", "phone": "03-33710820" },
+    "apm": { "name": "APM Selangor", "phone": "03-33715921" }
+  },
+  "districts": [
+    {
+      "district": "klang",
+      "district_name": "Klang",
+      "aliases": ["klang", "shah alam", "subang"],
+      "facilities": { "police": { "name": "IPD Klang Utara", "phone": "03-32902222" } }
+    },
+    {
+      "district": "petaling",
+      "district_name": "Petaling",
+      "aliases": ["petaling", "pj", "petaling jaya", "damansara"],
+      "facilities": { "police": { "name": "IPD Petaling Jaya", "phone": "03-79662222" } }
+    },
+    {
+      "district": "hulu-langat",
+      "district_name": "Hulu Langat",
+      "aliases": ["hulu langat", "kajang", "cheras", "ampang jaya"],
+      "facilities": { "police": { "name": "IPD Kajang", "phone": "03-89114222" } }
+    },
+    {
+      "district": "gombak",
+      "district_name": "Gombak",
+      "aliases": ["gombak", "batu caves", "selayang"],
+      "facilities": { "police": { "name": "IPD Gombak", "phone": "03-61262222" } }
+    }
+  ]
+}
