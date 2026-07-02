@@ -32,6 +32,10 @@
         "fire": {
           "name": "BBP Kuching",
           "phone": "082-364486"
+        },
+        "apm": {
+          "name": "APM Kuching",
+          "phone": "082-251478"
         }
       }
     },
@@ -49,6 +53,10 @@
         "fire": {
           "name": "BBP Miri",
           "phone": "085-424144"
+        },
+        "apm": {
+          "name": "APM Miri",
+          "phone": "085-433389"
         }
       }
     },
@@ -66,6 +74,10 @@
         "fire": {
           "name": "BBP Sibu",
           "phone": "084-330343"
+        },
+        "apm": {
+          "name": "APM Sibu",
+          "phone": "084-320312"
         }
       }
     },
@@ -79,6 +91,10 @@
         "police": {
           "name": "IPD Bintulu",
           "phone": "086-331121"
+        },
+        "apm": {
+          "name": "APM Bintulu",
+          "phone": "086-339781"
         }
       }
     }

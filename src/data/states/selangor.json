@@ -34,6 +34,10 @@
         "fire": {
           "name": "BBP Klang",
           "phone": "03-33714444"
+        },
+        "apm": {
+          "name": "APM Klang",
+          "phone": "03-33715921"
         }
       }
     },
@@ -54,6 +58,10 @@
         "fire": {
           "name": "BBP Petaling",
           "phone": "03-42924444"
+        },
+        "apm": {
+          "name": "APM Petaling",
+          "phone": "03-33715921"
         }
       }
     },
@@ -74,6 +82,10 @@
         "fire": {
           "name": "BBP Hulu Langat",
           "phone": "03-87364444"
+        },
+        "apm": {
+          "name": "APM Hulu Langat",
+          "phone": "03-87379077"
         }
       }
     },
@@ -93,6 +105,10 @@
         "fire": {
           "name": "BBP Gombak",
           "phone": "03-60924444"
+        },
+        "apm": {
+          "name": "APM Gombak",
+          "phone": "016-4390991"
         }
       }
     }
