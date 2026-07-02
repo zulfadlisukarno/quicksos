@@ -25,6 +25,10 @@
         "ipoh"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Raja Permaisuri Bainun",
+          "phone": "05-2533333"
+        },
         "police": {
           "name": "IPD Ipoh",
           "phone": "05-2451500"
@@ -46,6 +50,10 @@
         "taiping"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Taiping",
+          "phone": "05-8083333"
+        },
         "police": {
           "name": "IPD Taiping",
           "phone": "05-8291222"
@@ -67,6 +75,10 @@
         "batu gajah"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Batu Gajah",
+          "phone": "05-3663333"
+        },
         "police": {
           "name": "IPD Batu Gajah",
           "phone": "05-3629222"
@@ -90,6 +102,10 @@
         "seri iskandar"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Seri Manjung",
+          "phone": "05-6896600"
+        },
         "police": {
           "name": "IPD Manjung",
           "phone": "05-6899222"

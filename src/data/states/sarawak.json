@@ -48,6 +48,7 @@
       "district_name": "Miri",
       "aliases": ["miri"],
       "facilities": {
+        "hospital": { "name": "Hospital Miri", "phone": "085-420033" },
         "police": { "name": "IPD Miri", "phone": "085-432533" },
         "fire": { "name": "BBP Miri", "phone": "085-424144" },
         "apm": { "name": "APM Miri", "phone": "085-433389" }
@@ -58,6 +59,7 @@
       "district_name": "Bintulu",
       "aliases": ["bintulu"],
       "facilities": {
+        "hospital": { "name": "Hospital Bintulu", "phone": "086-255899" },
         "police": { "name": "IPD Bintulu", "phone": "086-331121" },
         "apm": { "name": "APM Bintulu", "phone": "086-339781" }
       }

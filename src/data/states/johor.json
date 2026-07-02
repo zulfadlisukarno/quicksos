@@ -29,7 +29,7 @@
       "facilities": {
         "hospital": {
           "name": "Hospital Sultanah Aminah",
-          "phone": "07-2257000"
+          "phone": "07-2231666"
         },
         "police": {
           "name": "IPD Johor Bahru Utara",
@@ -81,7 +81,7 @@
       "facilities": {
         "hospital": {
           "name": "Hospital Pakar Sultanah Fatimah",
-          "phone": "06-9521901"
+          "phone": "06-9564000"
         },
         "police": {
           "name": "IPD Muar",
@@ -127,6 +127,10 @@
       "district_name": "Segamat",
       "aliases": ["segamat"],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Segamat",
+          "phone": "07-9433333"
+        },
         "apm": {
           "name": "APM Segamat",
           "phone": "07-9321488"

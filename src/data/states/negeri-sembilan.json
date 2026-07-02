@@ -60,6 +60,10 @@
         "pd"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Port Dickson",
+          "phone": "06-6487333"
+        },
         "police": {
           "name": "IPD Port Dickson",
           "phone": "06-6462999"
@@ -77,6 +81,10 @@
         "tampin"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Tampin",
+          "phone": "06-4411511"
+        },
         "police": {
           "name": "IPD Tampin",
           "phone": "06-4431999"
@@ -92,6 +100,10 @@
       "district_name": "Jempol",
       "aliases": ["jempol"],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Jempol",
+          "phone": "06-4592000"
+        },
         "apm": {
           "name": "APM Jempol",
           "phone": "06-4542931"
@@ -103,6 +115,10 @@
       "district_name": "Rembau",
       "aliases": ["rembau"],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Rembau",
+          "phone": "06-6860600"
+        },
         "apm": {
           "name": "APM Rembau",
           "phone": "06-6852073"

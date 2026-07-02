@@ -27,6 +27,10 @@
         "kuala terengganu"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Sultanah Nur Zahirah",
+          "phone": "09-6212121"
+        },
         "police": {
           "name": "IPD Kuala Terengganu",
           "phone": "09-6322222"
@@ -49,6 +53,10 @@
         "kerteh"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Kemaman",
+          "phone": "09-8513333"
+        },
         "police": {
           "name": "IPD Kemaman",
           "phone": "09-8592222"
@@ -67,6 +75,10 @@
         "kampung raja"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Besut",
+          "phone": "09-6971130"
+        },
         "police": {
           "name": "IPD Besut",
           "phone": "09-6956222"
@@ -88,6 +100,10 @@
         "dungun"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Dungun",
+          "phone": "09-8483333"
+        },
         "police": {
           "name": "IPD Dungun",
           "phone": "09-6482222"
@@ -107,6 +123,10 @@
       "district_name": "Setiu",
       "aliases": ["setiu"],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Setiu",
+          "phone": "09-6090333"
+        },
         "apm": {
           "name": "APM Setiu",
           "phone": "09-6091590"

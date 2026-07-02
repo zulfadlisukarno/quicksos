@@ -25,7 +25,7 @@
       "district_name": "Kota Bharu",
       "aliases": ["kota bahru", "kb", "kota bharu", "sultan ibrahim", "nilam puri", "pengkalan chepa", "kubang kerian", "pasir tumboh", "kota darul naim", "ketereh"],
       "facilities": {
-        "hospital": { "name": "Hospital Raja Perempuan Zainab II", "phone": "09-7485533" },
+        "hospital": { "name": "Hospital Raja Perempuan Zainab II", "phone": "09-7452000" },
         "police": { "name": "IPD Kota Bharu", "phone": "09-7485522" },
         "fire": { "name": "BBP Kota Bharu", "phone": "09-7484444" },
         "apm": { "name": "APM Kota Bharu", "phone": "09-7413041" }
@@ -36,7 +36,7 @@
       "district_name": "Gua Musang",
       "aliases": ["gua musang", "paloh", "bertam"],
       "facilities": {
-        "hospital": { "name": "Hospital Gua Musang", "phone": "09-9133300" },
+        "hospital": { "name": "Hospital Gua Musang", "phone": "09-9121133" },
         "police": { "name": "IPD Gua Musang", "phone": "09-9121222" },
         "fire": { "name": "BBP Gua Musang", "phone": "09-9121444" },
         "apm": { "name": "APM Gua Musang", "phone": "09-9120723" }
@@ -47,7 +47,7 @@
       "district_name": "Jeli",
       "aliases": ["jeli", "ayer lanas", "batu melintang", "kuala balah", "dabong"],
       "facilities": {
-        "hospital": { "name": "Hospital Jeli", "phone": "09-9443300" },
+        "hospital": { "name": "Hospital Jeli", "phone": "09-9440092" },
         "police": { "name": "IPD Jeli", "phone": "09-9440204" },
         "fire": { "name": "BBP Jeli", "phone": "09-9440444" },
         "apm": { "name": "APM Jeli", "phone": "09-9440231" }
@@ -58,7 +58,7 @@
       "district_name": "Kuala Krai",
       "aliases": ["kuala krai", "krai", "laloh", "manik urai", "pahi", "telekong", "mengkebang", "sungai durian"],
       "facilities": {
-        "hospital": { "name": "Hospital Kuala Krai", "phone": "09-9666333" },
+        "hospital": { "name": "Hospital Sultan Ismail Petra", "phone": "09-9611300" },
         "police": { "name": "IPD Kuala Krai", "phone": "09-9666222" },
         "fire": { "name": "BBP Kuala Krai", "phone": "09-9666444" },
         "apm": { "name": "APM Kuala Krai", "phone": "09-9609460" }
@@ -69,7 +69,7 @@
       "district_name": "Machang",
       "aliases": ["machang", "banggol judah", "labok", "temangan", "pulai condong", "kemahang"],
       "facilities": {
-        "hospital": { "name": "Hospital Machang", "phone": "09-9752533" },
+        "hospital": { "name": "Hospital Machang", "phone": "09-9741300" },
         "police": { "name": "IPD Machang", "phone": "09-9751222" },
         "fire": { "name": "BBP Machang", "phone": "09-9752444" },
         "apm": { "name": "APM Machang", "phone": "09-9750260" }
@@ -80,7 +80,7 @@
       "district_name": "Pasir Mas",
       "aliases": ["pasir mas", "rantau panjang", "bakong", "bunut susu", "meranti", "gelang mas", "tok uban"],
       "facilities": {
-        "hospital": { "name": "Hospital Pasir Mas", "phone": "09-7909333" },
+        "hospital": { "name": "Hospital Pasir Mas", "phone": "09-7932300" },
         "police": { "name": "IPD Pasir Mas", "phone": "09-7908222" },
         "fire": { "name": "BBP Pasir Mas", "phone": "09-7909444" },
         "apm": { "name": "APM Pasir Mas", "phone": "09-7922070" }
@@ -91,7 +91,7 @@
       "district_name": "Pasir Puteh",
       "aliases": ["pasir puteh", "pasir putih", "bukit yong", "cherang ruku", "selising", "gaal"],
       "facilities": {
-        "hospital": { "name": "Hospital Tengku Anis", "phone": "09-7866333" },
+        "hospital": { "name": "Hospital Tengku Anis", "phone": "09-7843333" },
         "police": { "name": "IPD Pasir Puteh", "phone": "09-7867222" },
         "fire": { "name": "BBP Pasir Puteh", "phone": "09-7867444" },
         "apm": { "name": "APM Pasir Puteh", "phone": "09-7861392" }
@@ -102,7 +102,7 @@
       "district_name": "Tanah Merah",
       "aliases": ["tanah merah", "bukit panau", "gual ipoh", "kuala tiga", "lalang pepuyu", "nibong", "kusial"],
       "facilities": {
-        "hospital": { "name": "Hospital Tanah Merah", "phone": "09-9557333" },
+        "hospital": { "name": "Hospital Tanah Merah", "phone": "09-9545000" },
         "police": { "name": "IPD Tanah Merah", "phone": "09-9556222" },
         "fire": { "name": "BBP Tanah Merah", "phone": "09-9556444" },
         "apm": { "name": "APM Tanah Merah", "phone": "09-9502263" }
@@ -113,7 +113,7 @@
       "district_name": "Tumpat",
       "aliases": ["tumpat", "wakaf baru", "pengkalan kubur", "palekbang", "simpangan", "chabang emat", "bunohan"],
       "facilities": {
-        "hospital": { "name": "Hospital Tumpat", "phone": "09-7257533" },
+        "hospital": { "name": "Hospital Tumpat", "phone": "09-7263000" },
         "police": { "name": "IPD Tumpat", "phone": "09-7257222" },
         "fire": { "name": "BBP Tumpat", "phone": "09-7257444" },
         "apm": { "name": "APM Tumpat", "phone": "09-7254218" }

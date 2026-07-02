@@ -51,6 +51,10 @@
         "damansara"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Sungai Buloh",
+          "phone": "03-61454333"
+        },
         "police": {
           "name": "IPD Petaling Jaya",
           "phone": "03-79662222"
@@ -75,6 +79,10 @@
         "ampang jaya"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Kajang",
+          "phone": "03-87343333"
+        },
         "police": {
           "name": "IPD Kajang",
           "phone": "03-89114222"
@@ -98,6 +106,10 @@
         "selayang"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Selayang",
+          "phone": "03-61263333"
+        },
         "police": {
           "name": "IPD Gombak",
           "phone": "03-61262222"

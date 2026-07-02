@@ -25,6 +25,10 @@
         "kangar"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Tuanku Fauziah",
+          "phone": "04-9738000"
+        },
         "police": {
           "name": "IPD Kangar",
           "phone": "04-9861222"

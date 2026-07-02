@@ -27,6 +27,10 @@
         "penang"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Pulau Pinang",
+          "phone": "04-2225333"
+        },
         "police": {
           "name": "IPD Timur Laut",
           "phone": "04-2181822"
@@ -45,6 +49,10 @@
         "bayan lepas"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Balik Pulau",
+          "phone": "04-8669333"
+        },
         "police": {
           "name": "IPD Barat Daya",
           "phone": "04-8662222"
@@ -64,6 +72,10 @@
         "nibong tebal"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Kepala Batas",
+          "phone": "04-5793333"
+        },
         "police": {
           "name": "IPD Seberang Perai Utara",
           "phone": "04-5762222"
@@ -83,6 +95,10 @@
         "bukit mertajam"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Bukit Mertajam",
+          "phone": "04-5497333"
+        },
         "police": {
           "name": "IPD Seberang Perai Tengah",
           "phone": "04-5382222"

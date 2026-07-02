@@ -25,6 +25,10 @@
         "kuantan"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Tengku Ampuan Afzan",
+          "phone": "09-5133333"
+        },
         "police": {
           "name": "IPD Kuantan",
           "phone": "09-5652222"
@@ -46,6 +50,10 @@
         "temerloh"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Sultan Haji Ahmad Shah",
+          "phone": "09-2955333"
+        },
         "police": {
           "name": "IPD Temerloh",
           "phone": "09-2716222"
@@ -67,6 +75,10 @@
         "raub"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Raub",
+          "phone": "09-3553333"
+        },
         "police": {
           "name": "IPD Raub",
           "phone": "09-3552222"
@@ -84,6 +96,10 @@
         "bentong"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Bentong",
+          "phone": "09-2223333"
+        },
         "police": {
           "name": "IPD Bentong",
           "phone": "09-2222222"

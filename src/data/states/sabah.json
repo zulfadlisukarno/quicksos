@@ -26,6 +26,10 @@
         "kk"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Queen Elizabeth",
+          "phone": "088-517555"
+        },
         "police": {
           "name": "IPD Penampang",
           "phone": "088-712222"
@@ -85,6 +89,10 @@
         "lahad datu"
       ],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Lahad Datu",
+          "phone": "089-895111"
+        },
         "police": {
           "name": "IPD Lahad Datu",
           "phone": "089-881255"
@@ -104,6 +112,10 @@
       "district_name": "Keningau",
       "aliases": ["keningau"],
       "facilities": {
+        "hospital": {
+          "name": "Hospital Keningau",
+          "phone": "087-313000"
+        },
         "apm": {
           "name": "APM Keningau",
           "phone": "087-339161"
