@@ -27,7 +27,7 @@
       "facilities": {
         "police": {
           "name": "IPD Seremban",
-          "phone": "06-6014999"
+          "phone": "06-6033222"
         },
         "apm": {
           "name": "APM Seremban",
@@ -44,7 +44,7 @@
       "facilities": {
         "police": {
           "name": "IPD Kuala Pilah",
-          "phone": "06-4842999"
+          "phone": "06-4842222"
         },
         "apm": {
           "name": "APM Kuala Pilah",
@@ -66,7 +66,7 @@
         },
         "police": {
           "name": "IPD Port Dickson",
-          "phone": "06-6462999"
+          "phone": "06-6472222"
         },
         "apm": {
           "name": "APM Port Dickson",
@@ -87,7 +87,7 @@
         },
         "police": {
           "name": "IPD Tampin",
-          "phone": "06-4431999"
+          "phone": "06-4411222"
         },
         "apm": {
           "name": "APM Tampin",
@@ -98,11 +98,17 @@
     {
       "district": "jempol",
       "district_name": "Jempol",
-      "aliases": ["jempol"],
+      "aliases": [
+        "jempol"
+      ],
       "facilities": {
         "hospital": {
           "name": "Hospital Jempol",
           "phone": "06-4592000"
+        },
+        "police": {
+          "name": "IPD Jempol",
+          "phone": "06-4582222"
         },
         "apm": {
           "name": "APM Jempol",
@@ -113,15 +119,34 @@
     {
       "district": "rembau",
       "district_name": "Rembau",
-      "aliases": ["rembau"],
+      "aliases": [
+        "rembau"
+      ],
       "facilities": {
         "hospital": {
           "name": "Hospital Rembau",
           "phone": "06-6860600"
         },
+        "police": {
+          "name": "IPD Rembau",
+          "phone": "06-6852222"
+        },
         "apm": {
           "name": "APM Rembau",
           "phone": "06-6852073"
+        }
+      }
+    },
+    {
+      "district": "jelebu",
+      "district_name": "Jelebu",
+      "aliases": [
+        "jelebu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Jelebu",
+          "phone": "06-6136222"
         }
       }
     }

@@ -28,8 +28,8 @@
       ],
       "facilities": {
         "police": {
-          "name": "IPD Klang Utara",
-          "phone": "03-32902222"
+          "name": "IPD Klang Selatan",
+          "phone": "03-33762222"
         },
         "fire": {
           "name": "BBP Klang",
@@ -84,8 +84,8 @@
           "phone": "03-87343333"
         },
         "police": {
-          "name": "IPD Kajang",
-          "phone": "03-89114222"
+          "name": "IPD Hulu Langat",
+          "phone": "03-31872222"
         },
         "fire": {
           "name": "BBP Hulu Langat",
@@ -112,7 +112,7 @@
         },
         "police": {
           "name": "IPD Gombak",
-          "phone": "03-61262222"
+          "phone": "03-61369408"
         },
         "fire": {
           "name": "BBP Gombak",
@@ -121,6 +121,139 @@
         "apm": {
           "name": "APM Gombak",
           "phone": "016-4390991"
+        }
+      }
+    },
+    {
+      "district": "hulu-selangor",
+      "district_name": "Hulu Selangor",
+      "aliases": [
+        "hulu selangor",
+        "kuala kubu baharu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Hulu Selangor",
+          "phone": "03-60651021"
+        }
+      }
+    },
+    {
+      "district": "klang-utara",
+      "district_name": "Klang Utara",
+      "aliases": [
+        "klang utara"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Klang Utara",
+          "phone": "03-32912222"
+        }
+      }
+    },
+    {
+      "district": "kuala-selangor",
+      "district_name": "Kuala Selangor",
+      "aliases": [
+        "kuala selangor"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kuala Selangor",
+          "phone": "03-32891222"
+        }
+      }
+    },
+    {
+      "district": "sabak-bernand",
+      "district_name": "Sabak Bernam",
+      "aliases": [
+        "sabak bernam"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sabak Bernam",
+          "phone": "03-32245963"
+        }
+      }
+    },
+    {
+      "district": "sepang",
+      "district_name": "Sepang",
+      "aliases": [
+        "sepang",
+        "klia"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sepang",
+          "phone": "03-87774222"
+        }
+      }
+    },
+    {
+      "district": "serdang",
+      "district_name": "Serdang",
+      "aliases": [
+        "serdang"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Serdang",
+          "phone": "03-80742222"
+        }
+      }
+    },
+    {
+      "district": "shah-alam",
+      "district_name": "Shah Alam",
+      "aliases": [
+        "shah alam"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Shah Alam",
+          "phone": "03-55202222"
+        }
+      }
+    },
+    {
+      "district": "subang-jaya",
+      "district_name": "Subang Jaya",
+      "aliases": [
+        "subang jaya"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Subang Jaya",
+          "phone": "03-78627222"
+        }
+      }
+    },
+    {
+      "district": "sungai-buloh",
+      "district_name": "Sungai Buloh",
+      "aliases": [
+        "sungai buloh"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sungai Buloh",
+          "phone": "03-61561222"
+        }
+      }
+    },
+    {
+      "district": "ampang-jaya",
+      "district_name": "Ampang Jaya",
+      "aliases": [
+        "ampang jaya",
+        "ampang"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Ampang Jaya",
+          "phone": "03-42897222"
         }
       }
     }

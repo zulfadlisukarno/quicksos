@@ -108,6 +108,20 @@
           "phone": "04-5304017"
         }
       }
+    },
+    {
+      "district": "seberang-perai-selatan",
+      "district_name": "Seberang Perai Selatan",
+      "aliases": [
+        "seberang perai selatan",
+        "sps"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Seberang Perai Selatan",
+          "phone": "04-5824222"
+        }
+      }
     }
   ]
 }

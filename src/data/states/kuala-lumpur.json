@@ -60,7 +60,7 @@
       "facilities": {
         "police": {
           "name": "IPD Cheras",
-          "phone": "03-92842222"
+          "phone": "03-91452222"
         },
         "apm": {
           "name": "APM Cheras",
@@ -73,17 +73,29 @@
       "district_name": "Sentul",
       "aliases": [
         "sentul",
-        "titiwangsa",
-        "wangsa maju"
+        "titiwangsa"
       ],
       "facilities": {
         "police": {
           "name": "IPD Sentul",
-          "phone": "03-62562222"
+          "phone": "03-40482222"
         },
         "apm": {
           "name": "APM Sentul",
           "phone": "03-62010704"
+        }
+      }
+    },
+    {
+      "district": "wangsa-maju",
+      "district_name": "Wangsa Maju",
+      "aliases": [
+        "wangsa maju"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Wangsa Maju",
+          "phone": "03-92899222"
         }
       }
     }

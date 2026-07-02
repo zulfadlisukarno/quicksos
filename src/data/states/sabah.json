@@ -31,8 +31,8 @@
           "phone": "088-517555"
         },
         "police": {
-          "name": "IPD Penampang",
-          "phone": "088-712222"
+          "name": "IPD Kota Kinabalu",
+          "phone": "088-529222"
         },
         "fire": {
           "name": "BBP Kota Kinabalu",
@@ -53,7 +53,7 @@
       "facilities": {
         "police": {
           "name": "IPD Sandakan",
-          "phone": "089-211222"
+          "phone": "089-242222"
         },
         "fire": {
           "name": "BBP Sandakan",
@@ -110,15 +110,203 @@
     {
       "district": "keningau",
       "district_name": "Keningau",
-      "aliases": ["keningau"],
+      "aliases": [
+        "keningau"
+      ],
       "facilities": {
         "hospital": {
           "name": "Hospital Keningau",
           "phone": "087-313000"
         },
+        "police": {
+          "name": "IPD Keningau",
+          "phone": "087-332222"
+        },
         "apm": {
           "name": "APM Keningau",
           "phone": "087-339161"
+        }
+      }
+    },
+    {
+      "district": "beaufort",
+      "district_name": "Beaufort",
+      "aliases": [
+        "beaufort"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Beaufort",
+          "phone": "087-211222"
+        }
+      }
+    },
+    {
+      "district": "beluran",
+      "district_name": "Beluran",
+      "aliases": [
+        "beluran"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Beluran",
+          "phone": "089-511222"
+        }
+      }
+    },
+    {
+      "district": "kinabatangan",
+      "district_name": "Kinabatangan",
+      "aliases": [
+        "kinabatangan"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kinabatangan",
+          "phone": "089-561443"
+        }
+      }
+    },
+    {
+      "district": "kota-belud",
+      "district_name": "Kota Belud",
+      "aliases": [
+        "kota belud"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kota Belud",
+          "phone": "088-976600"
+        }
+      }
+    },
+    {
+      "district": "kota-marudu",
+      "district_name": "Kota Marudu",
+      "aliases": [
+        "kota marudu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kota Marudu",
+          "phone": "088-662449"
+        }
+      }
+    },
+    {
+      "district": "kudat",
+      "district_name": "Kudat",
+      "aliases": [
+        "kudat"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kudat",
+          "phone": "088-612222"
+        }
+      }
+    },
+    {
+      "district": "kunak",
+      "district_name": "Kunak",
+      "aliases": [
+        "kunak"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kunak",
+          "phone": "089-851669"
+        }
+      }
+    },
+    {
+      "district": "papar",
+      "district_name": "Papar",
+      "aliases": [
+        "papar"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Papar",
+          "phone": "088-916064"
+        }
+      }
+    },
+    {
+      "district": "penampang",
+      "district_name": "Penampang",
+      "aliases": [
+        "penampang"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Penampang",
+          "phone": "088-712222"
+        }
+      }
+    },
+    {
+      "district": "ranau",
+      "district_name": "Ranau",
+      "aliases": [
+        "ranau"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Ranau",
+          "phone": "088-875222"
+        }
+      }
+    },
+    {
+      "district": "semporna",
+      "district_name": "Semporna",
+      "aliases": [
+        "semporna"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Semporna",
+          "phone": "089-782020"
+        }
+      }
+    },
+    {
+      "district": "sipitang",
+      "district_name": "Sipitang",
+      "aliases": [
+        "sipitang"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sipitang",
+          "phone": "087-821222"
+        }
+      }
+    },
+    {
+      "district": "tenom",
+      "district_name": "Tenom",
+      "aliases": [
+        "tenom"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Tenom",
+          "phone": "087-736211"
+        }
+      }
+    },
+    {
+      "district": "tuaran",
+      "district_name": "Tuaran",
+      "aliases": [
+        "tuaran"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Tuaran",
+          "phone": "088-794313"
         }
       }
     }

@@ -106,7 +106,7 @@
         },
         "police": {
           "name": "IPD Dungun",
-          "phone": "09-6482222"
+          "phone": "09-8482222"
         },
         "fire": {
           "name": "BBP Dungun",
@@ -121,11 +121,17 @@
     {
       "district": "setiu",
       "district_name": "Setiu",
-      "aliases": ["setiu"],
+      "aliases": [
+        "setiu"
+      ],
       "facilities": {
         "hospital": {
           "name": "Hospital Setiu",
           "phone": "09-6090333"
+        },
+        "police": {
+          "name": "IPD Setiu",
+          "phone": "09-6098222"
         },
         "apm": {
           "name": "APM Setiu",
@@ -136,8 +142,14 @@
     {
       "district": "marang",
       "district_name": "Marang",
-      "aliases": ["marang"],
+      "aliases": [
+        "marang"
+      ],
       "facilities": {
+        "police": {
+          "name": "IPD Marang",
+          "phone": "09-6182222"
+        },
         "apm": {
           "name": "APM Marang",
           "phone": "09-6182557"
@@ -147,8 +159,14 @@
     {
       "district": "hulu-terengganu",
       "district_name": "Hulu Terengganu",
-      "aliases": ["hulu terengganu"],
+      "aliases": [
+        "hulu terengganu"
+      ],
       "facilities": {
+        "police": {
+          "name": "IPD Hulu Terengganu",
+          "phone": "09-6811222"
+        },
         "apm": {
           "name": "APM Hulu Terengganu",
           "phone": "09-6812991"

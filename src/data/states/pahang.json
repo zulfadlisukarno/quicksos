@@ -56,7 +56,7 @@
         },
         "police": {
           "name": "IPD Temerloh",
-          "phone": "09-2716222"
+          "phone": "09-3964999"
         },
         "fire": {
           "name": "BBP Temerloh",
@@ -81,7 +81,7 @@
         },
         "police": {
           "name": "IPD Raub",
-          "phone": "09-3552222"
+          "phone": "09-3554999"
         },
         "apm": {
           "name": "APM Raub",
@@ -107,6 +107,97 @@
         "apm": {
           "name": "APM Bentong",
           "phone": "09-2233368"
+        }
+      }
+    },
+    {
+      "district": "bera",
+      "district_name": "Bera",
+      "aliases": [
+        "bera"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Bera",
+          "phone": "09-2508222"
+        }
+      }
+    },
+    {
+      "district": "cameron-highlands",
+      "district_name": "Cameron Highlands",
+      "aliases": [
+        "cameron highlands"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Cameron Highlands",
+          "phone": "05-4911222"
+        }
+      }
+    },
+    {
+      "district": "jerantut",
+      "district_name": "Jerantut",
+      "aliases": [
+        "jerantut"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Jerantut",
+          "phone": "09-2662222"
+        }
+      }
+    },
+    {
+      "district": "kuala-lipis",
+      "district_name": "Kuala Lipis",
+      "aliases": [
+        "kuala lipis"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kuala Lipis",
+          "phone": "09-3122204"
+        }
+      }
+    },
+    {
+      "district": "maran",
+      "district_name": "Maran",
+      "aliases": [
+        "maran"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Maran",
+          "phone": "09-4771222"
+        }
+      }
+    },
+    {
+      "district": "pekan",
+      "district_name": "Pekan",
+      "aliases": [
+        "pekan"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Pekan",
+          "phone": "09-4221222"
+        }
+      }
+    },
+    {
+      "district": "rompin",
+      "district_name": "Rompin",
+      "aliases": [
+        "rompin"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Rompin",
+          "phone": "09-4145999"
         }
       }
     }

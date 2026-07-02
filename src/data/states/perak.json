@@ -81,7 +81,7 @@
         },
         "police": {
           "name": "IPD Batu Gajah",
-          "phone": "05-3629222"
+          "phone": "05-3629050"
         },
         "fire": {
           "name": "BBP Batu Gajah",
@@ -108,7 +108,139 @@
         },
         "police": {
           "name": "IPD Manjung",
-          "phone": "05-6899222"
+          "phone": "05-6886222"
+        }
+      }
+    },
+    {
+      "district": "gerik",
+      "district_name": "Gerik",
+      "aliases": [
+        "gerik"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Gerik",
+          "phone": "05-7912222"
+        }
+      }
+    },
+    {
+      "district": "hilir-perak",
+      "district_name": "Hilir Perak",
+      "aliases": [
+        "hilir perak",
+        "teluk intan"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Hilir Perak",
+          "phone": "05-6233969"
+        }
+      }
+    },
+    {
+      "district": "kampar",
+      "district_name": "Kampar",
+      "aliases": [
+        "kampar"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kampar",
+          "phone": "05-4652222"
+        }
+      }
+    },
+    {
+      "district": "kerian",
+      "district_name": "Kerian",
+      "aliases": [
+        "kerian",
+        "parit buntar"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kerian",
+          "phone": "05-7215222"
+        }
+      }
+    },
+    {
+      "district": "kuala-kangsar",
+      "district_name": "Kuala Kangsar",
+      "aliases": [
+        "kuala kangsar"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kuala Kangsar",
+          "phone": "05-7762222"
+        }
+      }
+    },
+    {
+      "district": "perak-tengah",
+      "district_name": "Perak Tengah",
+      "aliases": [
+        "perak tengah"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Perak Tengah",
+          "phone": "05-3771222"
+        }
+      }
+    },
+    {
+      "district": "selama",
+      "district_name": "Selama",
+      "aliases": [
+        "selama"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Selama",
+          "phone": "05-8394222"
+        }
+      }
+    },
+    {
+      "district": "sungai-siput",
+      "district_name": "Sungai Siput",
+      "aliases": [
+        "sungai siput"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sungai Siput",
+          "phone": "05-5982222"
+        }
+      }
+    },
+    {
+      "district": "tanjung-malim",
+      "district_name": "Tanjung Malim",
+      "aliases": [
+        "tanjung malim"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Tanjung Malim",
+          "phone": "05-4528222"
+        }
+      }
+    },
+    {
+      "district": "tapah",
+      "district_name": "Tapah",
+      "aliases": [
+        "tapah"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Tapah",
+          "phone": "05-4011222"
         }
       }
     }

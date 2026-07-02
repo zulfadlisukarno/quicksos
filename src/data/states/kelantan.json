@@ -26,7 +26,7 @@
       "aliases": ["kota bahru", "kb", "kota bharu", "sultan ibrahim", "nilam puri", "pengkalan chepa", "kubang kerian", "pasir tumboh", "kota darul naim", "ketereh"],
       "facilities": {
         "hospital": { "name": "Hospital Raja Perempuan Zainab II", "phone": "09-7452000" },
-        "police": { "name": "IPD Kota Bharu", "phone": "09-7485522" },
+        "police": { "name": "IPD Kota Bharu",           "phone": "09-7752200" },
         "fire": { "name": "BBP Kota Bharu", "phone": "09-7484444" },
         "apm": { "name": "APM Kota Bharu", "phone": "09-7413041" }
       }
@@ -81,7 +81,7 @@
       "aliases": ["pasir mas", "rantau panjang", "bakong", "bunut susu", "meranti", "gelang mas", "tok uban"],
       "facilities": {
         "hospital": { "name": "Hospital Pasir Mas", "phone": "09-7932300" },
-        "police": { "name": "IPD Pasir Mas", "phone": "09-7908222" },
+        "police": { "name": "IPD Pasir Mas",           "phone": "09-7932222" },
         "fire": { "name": "BBP Pasir Mas", "phone": "09-7909444" },
         "apm": { "name": "APM Pasir Mas", "phone": "09-7922070" }
       }

@@ -84,7 +84,7 @@
         },
         "police": {
           "name": "IPD Kulim",
-          "phone": "04-4906222"
+          "phone": "04-4916999"
         },
         "fire": {
           "name": "BBP Kulim",
@@ -93,28 +93,6 @@
         "apm": {
           "name": "APM Kulim",
           "phone": "04-4952978"
-        }
-      }
-    },
-    {
-      "district": "baling",
-      "district_name": "Baling",
-      "aliases": ["baling"],
-      "facilities": {
-        "apm": {
-          "name": "APM Baling",
-          "phone": "04-4701546"
-        }
-      }
-    },
-    {
-      "district": "kubang-pasu",
-      "district_name": "Kubang Pasu",
-      "aliases": ["kubang pasu"],
-      "facilities": {
-        "apm": {
-          "name": "APM Kubang Pasu",
-          "phone": "04-9171881"
         }
       }
     },
@@ -136,6 +114,92 @@
         "fire": {
           "name": "BBP Langkawi",
           "phone": "04-9693004"
+        }
+      }
+    },
+    {
+      "district": "baling",
+      "district_name": "Baling",
+      "aliases": [
+        "baling"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Baling",
+          "phone": "04-4708222"
+        },
+        "apm": {
+          "name": "APM Baling",
+          "phone": "04-4701546"
+        }
+      }
+    },
+    {
+      "district": "kubang-pasu",
+      "district_name": "Kubang Pasu",
+      "aliases": [
+        "kubang pasu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kubang Pasu",
+          "phone": "04-9176999"
+        },
+        "apm": {
+          "name": "APM Kubang Pasu",
+          "phone": "04-9171881"
+        }
+      }
+    },
+    {
+      "district": "padang-terap",
+      "district_name": "Padang Terap",
+      "aliases": [
+        "padang terap"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Padang Terap",
+          "phone": "04-7862222"
+        }
+      }
+    },
+    {
+      "district": "pendang",
+      "district_name": "Pendang",
+      "aliases": [
+        "pendang"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Pendang",
+          "phone": "04-7596222"
+        }
+      }
+    },
+    {
+      "district": "sik",
+      "district_name": "Sik",
+      "aliases": [
+        "sik"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sik",
+          "phone": "04-4695222"
+        }
+      }
+    },
+    {
+      "district": "yan",
+      "district_name": "Yan",
+      "aliases": [
+        "yan"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Yan",
+          "phone": "04-4655222"
         }
       }
     }
