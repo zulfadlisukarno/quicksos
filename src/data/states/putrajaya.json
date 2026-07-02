@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Putrajaya",
-      "phone": "03-88871400"
+      "phone": "03-88881999"
     }
   },
   "districts": [
@@ -28,6 +28,10 @@
         "police": {
           "name": "IPD Putrajaya",
           "phone": "03-88862222"
+        },
+        "apm": {
+          "name": "APM Putrajaya",
+          "phone": "03-88881999"
         }
       }
     }

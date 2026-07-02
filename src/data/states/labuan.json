@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Labuan",
-      "phone": "087-412144"
+      "phone": "087-425155"
     }
   },
   "districts": [
@@ -28,6 +28,10 @@
         "police": {
           "name": "IPD Labuan",
           "phone": "087-412222"
+        },
+        "apm": {
+          "name": "APM Labuan",
+          "phone": "087-425155"
         }
       }
     }

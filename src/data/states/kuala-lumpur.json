@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Kuala Lumpur",
-      "phone": "03-26871400"
+      "phone": "03-26925533"
     }
   },
   "districts": [
@@ -61,6 +61,10 @@
         "police": {
           "name": "IPD Cheras",
           "phone": "03-92842222"
+        },
+        "apm": {
+          "name": "APM Cheras",
+          "phone": "03-26949611"
         }
       }
     },
@@ -76,6 +80,10 @@
         "police": {
           "name": "IPD Sentul",
           "phone": "03-62562222"
+        },
+        "apm": {
+          "name": "APM Sentul",
+          "phone": "03-62010704"
         }
       }
     }
