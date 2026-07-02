@@ -4,28 +4,70 @@
   "version": "1.0",
   "last_updated": "2026-01-07",
   "state_facilities": {
-    "police": { "name": "IPK Perlis", "phone": "04-9082222" },
-    "fire": { "name": "JBPM Perlis", "phone": "04-9081444" },
-    "apm": { "name": "APM Perlis", "phone": "04-9777991" }
+    "police": {
+      "name": "IPK Perlis",
+      "phone": "04-9082222"
+    },
+    "fire": {
+      "name": "JBPM Perlis",
+      "phone": "04-9760544"
+    },
+    "apm": {
+      "name": "APM Perlis",
+      "phone": "04-9777991"
+    }
   },
   "districts": [
     {
       "district": "kangar",
       "district_name": "Kangar",
-      "aliases": ["kangar"],
-      "facilities": { "police": { "name": "IPD Kangar", "phone": "04-9861222" } }
+      "aliases": [
+        "kangar"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kangar",
+          "phone": "04-9861222"
+        },
+        "fire": {
+          "name": "BBP Kangar",
+          "phone": "04-9760544"
+        }
+      }
     },
     {
       "district": "padang-besar",
       "district_name": "Padang Besar",
-      "aliases": ["padang besar"],
-      "facilities": { "police": { "name": "IPD Padang Besar", "phone": "04-9492222" } }
+      "aliases": [
+        "padang besar"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Padang Besar",
+          "phone": "04-9492222"
+        },
+        "fire": {
+          "name": "BBP Padang Besar",
+          "phone": "04-9490094"
+        }
+      }
     },
     {
       "district": "arau",
       "district_name": "Arau",
-      "aliases": ["arau"],
-      "facilities": { "police": { "name": "IPD Arau", "phone": "04-9861222" } }
+      "aliases": [
+        "arau"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Arau",
+          "phone": "04-9861222"
+        },
+        "fire": {
+          "name": "BBP Arau",
+          "phone": "04-9864444"
+        }
+      }
     }
   ]
 }

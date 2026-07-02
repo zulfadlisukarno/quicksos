@@ -4,34 +4,80 @@
   "version": "1.0",
   "last_updated": "2026-01-07",
   "state_facilities": {
-    "police": { "name": "IPK Kuala Lumpur", "phone": "03-21460522" },
-    "fire": { "name": "JBPM Kuala Lumpur", "phone": "03-26913703" },
-    "apm": { "name": "APM Kuala Lumpur", "phone": "03-26871400" }
+    "police": {
+      "name": "IPK Kuala Lumpur",
+      "phone": "03-21460522"
+    },
+    "fire": {
+      "name": "JBPM Kuala Lumpur",
+      "phone": "03-26913703"
+    },
+    "apm": {
+      "name": "APM Kuala Lumpur",
+      "phone": "03-26871400"
+    }
   },
   "districts": [
     {
       "district": "dang-wangi",
       "district_name": "Dang Wangi",
-      "aliases": ["dang wangi", "bukit bintang", "chinatown", "pudu"],
-      "facilities": { "police": { "name": "IPD Dang Wangi", "phone": "03-26002222" } }
+      "aliases": [
+        "dang wangi",
+        "bukit bintang",
+        "chinatown",
+        "pudu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Dang Wangi",
+          "phone": "03-26002222"
+        }
+      }
     },
     {
       "district": "brickfields",
       "district_name": "Brickfields",
-      "aliases": ["brickfields", "sentral", "bangsar"],
-      "facilities": { "police": { "name": "IPD Brickfields", "phone": "03-90516222" } }
+      "aliases": [
+        "brickfields",
+        "sentral",
+        "bangsar"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Brickfields",
+          "phone": "03-90516222"
+        }
+      }
     },
     {
       "district": "cheras",
       "district_name": "Cheras",
-      "aliases": ["cheras", "batu caves", "ampang"],
-      "facilities": { "police": { "name": "IPD Cheras", "phone": "03-92842222" } }
+      "aliases": [
+        "cheras",
+        "batu caves",
+        "ampang"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Cheras",
+          "phone": "03-92842222"
+        }
+      }
     },
     {
       "district": "sentul",
       "district_name": "Sentul",
-      "aliases": ["sentul", "titiwangsa", "wangsa maju"],
-      "facilities": { "police": { "name": "IPD Sentul", "phone": "03-62562222" } }
+      "aliases": [
+        "sentul",
+        "titiwangsa",
+        "wangsa maju"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sentul",
+          "phone": "03-62562222"
+        }
+      }
     }
   ]
 }

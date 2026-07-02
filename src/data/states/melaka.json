@@ -4,28 +4,72 @@
   "version": "1.0",
   "last_updated": "2026-01-07",
   "state_facilities": {
-    "police": { "name": "IPK Melaka", "phone": "06-2854222" },
-    "fire": { "name": "JBPM Melaka", "phone": "06-2851444" },
-    "apm": { "name": "APM Melaka", "phone": "06-2324028" }
+    "police": {
+      "name": "IPK Melaka",
+      "phone": "06-2854222"
+    },
+    "fire": {
+      "name": "JBPM Melaka",
+      "phone": "06-2316844"
+    },
+    "apm": {
+      "name": "APM Melaka",
+      "phone": "06-2324028"
+    }
   },
   "districts": [
     {
       "district": "melaka-tengah",
       "district_name": "Melaka Tengah",
-      "aliases": ["melaka tengah", "melaka", "bandar hilir"],
-      "facilities": { "police": { "name": "IPD Melaka Tengah", "phone": "06-2842222" } }
+      "aliases": [
+        "melaka tengah",
+        "melaka",
+        "bandar hilir"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Melaka Tengah",
+          "phone": "06-2842222"
+        },
+        "fire": {
+          "name": "BBP Melaka Tengah",
+          "phone": "06-2838481"
+        }
+      }
     },
     {
       "district": "alor-gajah",
       "district_name": "Alor Gajah",
-      "aliases": ["alor gajah"],
-      "facilities": { "police": { "name": "IPD Alor Gajah", "phone": "06-5562222" } }
+      "aliases": [
+        "alor gajah"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Alor Gajah",
+          "phone": "06-5562222"
+        },
+        "fire": {
+          "name": "BBP Alor Gajah",
+          "phone": "06-5562444"
+        }
+      }
     },
     {
       "district": "jasin",
       "district_name": "Jasin",
-      "aliases": ["jasin"],
-      "facilities": { "police": { "name": "IPD Jasin", "phone": "06-5292222" } }
+      "aliases": [
+        "jasin"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Jasin",
+          "phone": "06-5292222"
+        },
+        "fire": {
+          "name": "BBP Jasin",
+          "phone": "06-5291444"
+        }
+      }
     }
   ]
 }

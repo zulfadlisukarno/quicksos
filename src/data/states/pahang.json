@@ -4,34 +4,79 @@
   "version": "1.0",
   "last_updated": "2026-01-07",
   "state_facilities": {
-    "police": { "name": "IPK Pahang", "phone": "09-5052222" },
-    "fire": { "name": "JBPM Pahang", "phone": "09-5051444" },
-    "apm": { "name": "APM Pahang", "phone": "09-5171991" }
+    "police": {
+      "name": "IPK Pahang",
+      "phone": "09-5052222"
+    },
+    "fire": {
+      "name": "JBPM Pahang",
+      "phone": "09-5732978"
+    },
+    "apm": {
+      "name": "APM Pahang",
+      "phone": "09-5171991"
+    }
   },
   "districts": [
     {
       "district": "kuantan",
       "district_name": "Kuantan",
-      "aliases": ["kuantan"],
-      "facilities": { "police": { "name": "IPD Kuantan", "phone": "09-5652222" } }
+      "aliases": [
+        "kuantan"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kuantan",
+          "phone": "09-5652222"
+        },
+        "fire": {
+          "name": "BBP Kuantan",
+          "phone": "09-5130994"
+        }
+      }
     },
     {
       "district": "temerloh",
       "district_name": "Temerloh",
-      "aliases": ["temerloh"],
-      "facilities": { "police": { "name": "IPD Temerloh", "phone": "09-2716222" } }
+      "aliases": [
+        "temerloh"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Temerloh",
+          "phone": "09-2716222"
+        },
+        "fire": {
+          "name": "BBP Temerloh",
+          "phone": "09-2716999"
+        }
+      }
     },
     {
       "district": "raub",
       "district_name": "Raub",
-      "aliases": ["raub"],
-      "facilities": { "police": { "name": "IPD Raub", "phone": "09-3552222" } }
+      "aliases": [
+        "raub"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Raub",
+          "phone": "09-3552222"
+        }
+      }
     },
     {
       "district": "bentong",
       "district_name": "Bentong",
-      "aliases": ["bentong"],
-      "facilities": { "police": { "name": "IPD Bentong", "phone": "09-2222222" } }
+      "aliases": [
+        "bentong"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Bentong",
+          "phone": "09-2222222"
+        }
+      }
     }
   ]
 }

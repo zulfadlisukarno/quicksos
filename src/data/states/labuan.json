@@ -4,16 +4,32 @@
   "version": "1.0",
   "last_updated": "2026-01-07",
   "state_facilities": {
-    "police": { "name": "IPD Labuan", "phone": "087-412222" },
-    "fire": { "name": "BBP Labuan", "phone": "087-412144" },
-    "apm": { "name": "APM Labuan", "phone": "087-412144" }
+    "police": {
+      "name": "IPD Labuan",
+      "phone": "087-412222"
+    },
+    "fire": {
+      "name": "BBP Labuan",
+      "phone": "087-414444"
+    },
+    "apm": {
+      "name": "APM Labuan",
+      "phone": "087-412144"
+    }
   },
   "districts": [
     {
       "district": "labuan",
       "district_name": "Labuan",
-      "aliases": ["labuan"],
-      "facilities": { "police": { "name": "IPD Labuan", "phone": "087-412222" } }
+      "aliases": [
+        "labuan"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Labuan",
+          "phone": "087-412222"
+        }
+      }
     }
   ]
 }

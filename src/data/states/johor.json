@@ -4,45 +4,106 @@
   "version": "1.0",
   "last_updated": "2026-01-07",
   "state_facilities": {
-    "police": { "name": "IPK Johor", "phone": "07-2254422" },
-    "fire": { "name": "JBPM Johor", "phone": "07-2243444" },
-    "apm": { "name": "APM Johor", "phone": "07-2349706" }
+    "police": {
+      "name": "IPK Johor",
+      "phone": "07-2254422"
+    },
+    "fire": {
+      "name": "JBPM Johor",
+      "phone": "07-2248281"
+    },
+    "apm": {
+      "name": "APM Johor",
+      "phone": "07-2349706"
+    }
   },
   "districts": [
     {
       "district": "johor-bahru",
       "district_name": "Johor Bahru",
-      "aliases": ["johor bahru", "jb", "johor jaya"],
+      "aliases": [
+        "johor bahru",
+        "jb",
+        "johor jaya"
+      ],
       "facilities": {
-        "hospital": { "name": "Hospital Sultanah Aminah", "phone": "07-2257000" },
-        "police": { "name": "IPD Johor Bahru Utara", "phone": "07-5561222" }
+        "hospital": {
+          "name": "Hospital Sultanah Aminah",
+          "phone": "07-2257000"
+        },
+        "police": {
+          "name": "IPD Johor Bahru Utara",
+          "phone": "07-5561222"
+        },
+        "fire": {
+          "name": "BBP Johor Bahru",
+          "phone": "07-2243444"
+        }
       }
     },
     {
       "district": "batu-pahat",
       "district_name": "Batu Pahat",
-      "aliases": ["batu pahat", "bp"],
+      "aliases": [
+        "batu pahat",
+        "bp"
+      ],
       "facilities": {
-        "hospital": { "name": "Hospital Batu Pahat", "phone": "07-4363000" },
-        "police": { "name": "IPD Batu Pahat", "phone": "07-4341222" }
+        "hospital": {
+          "name": "Hospital Batu Pahat",
+          "phone": "07-4363000"
+        },
+        "police": {
+          "name": "IPD Batu Pahat",
+          "phone": "07-4341222"
+        },
+        "fire": {
+          "name": "BBP Batu Pahat",
+          "phone": "07-4338444"
+        }
       }
     },
     {
       "district": "muar",
       "district_name": "Muar",
-      "aliases": ["muar", "bandar maharani"],
+      "aliases": [
+        "muar",
+        "bandar maharani"
+      ],
       "facilities": {
-        "hospital": { "name": "Hospital Pakar Sultanah Fatimah", "phone": "06-9521901" },
-        "police": { "name": "IPD Muar", "phone": "06-9526222" }
+        "hospital": {
+          "name": "Hospital Pakar Sultanah Fatimah",
+          "phone": "06-9521901"
+        },
+        "police": {
+          "name": "IPD Muar",
+          "phone": "06-9526222"
+        },
+        "fire": {
+          "name": "BBP Muar",
+          "phone": "06-9555994"
+        }
       }
     },
     {
       "district": "kluang",
       "district_name": "Kluang",
-      "aliases": ["kluang"],
+      "aliases": [
+        "kluang"
+      ],
       "facilities": {
-        "hospital": { "name": "Hospital Kluang", "phone": "07-7723333" },
-        "police": { "name": "IPD Kluang", "phone": "07-7722222" }
+        "hospital": {
+          "name": "Hospital Kluang",
+          "phone": "07-7723333"
+        },
+        "police": {
+          "name": "IPD Kluang",
+          "phone": "07-7722222"
+        },
+        "fire": {
+          "name": "BBP Kluang",
+          "phone": "07-7724444"
+        }
       }
     }
   ]

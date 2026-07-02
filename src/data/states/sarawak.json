@@ -4,34 +4,83 @@
   "version": "1.0",
   "last_updated": "2026-01-07",
   "state_facilities": {
-    "police": { "name": "IPPK Sarawak", "phone": "082-245522" },
-    "fire": { "name": "JBPM Sarawak", "phone": "082-245144" },
-    "apm": { "name": "APM Sarawak", "phone": "082-433896" }
+    "police": {
+      "name": "IPPK Sarawak",
+      "phone": "082-245522"
+    },
+    "fire": {
+      "name": "JBPM Sarawak",
+      "phone": "082-364486"
+    },
+    "apm": {
+      "name": "APM Sarawak",
+      "phone": "082-433896"
+    }
   },
   "districts": [
     {
       "district": "kuching",
       "district_name": "Kuching",
-      "aliases": ["kuching"],
-      "facilities": { "police": { "name": "IPD Kuching", "phone": "082-221222" } }
+      "aliases": [
+        "kuching"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kuching",
+          "phone": "082-221222"
+        },
+        "fire": {
+          "name": "BBP Kuching",
+          "phone": "082-364486"
+        }
+      }
     },
     {
       "district": "miri",
       "district_name": "Miri",
-      "aliases": ["miri"],
-      "facilities": { "police": { "name": "IPD Miri", "phone": "085-432533" } }
+      "aliases": [
+        "miri"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Miri",
+          "phone": "085-432533"
+        },
+        "fire": {
+          "name": "BBP Miri",
+          "phone": "085-424144"
+        }
+      }
     },
     {
       "district": "sibu",
       "district_name": "Sibu",
-      "aliases": ["sibu"],
-      "facilities": { "police": { "name": "IPD Sibu", "phone": "084-322222" } }
+      "aliases": [
+        "sibu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sibu",
+          "phone": "084-322222"
+        },
+        "fire": {
+          "name": "BBP Sibu",
+          "phone": "084-330343"
+        }
+      }
     },
     {
       "district": "bintulu",
       "district_name": "Bintulu",
-      "aliases": ["bintulu"],
-      "facilities": { "police": { "name": "IPD Bintulu", "phone": "086-331121" } }
+      "aliases": [
+        "bintulu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Bintulu",
+          "phone": "086-331121"
+        }
+      }
     }
   ]
 }
