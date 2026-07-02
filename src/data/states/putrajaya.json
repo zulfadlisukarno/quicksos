@@ -32,6 +32,10 @@
         "apm": {
           "name": "APM Putrajaya",
           "phone": "03-88881999"
+        },
+        "hospital": {
+          "name": "Hospital Putrajaya",
+          "phone": "03-83124200"
         }
       }
     }

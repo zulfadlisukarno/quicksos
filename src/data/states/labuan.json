@@ -32,6 +32,10 @@
         "apm": {
           "name": "APM Labuan",
           "phone": "087-425155"
+        },
+        "hospital": {
+          "name": "Hospital Labuan",
+          "phone": "087-423922"
         }
       }
     }

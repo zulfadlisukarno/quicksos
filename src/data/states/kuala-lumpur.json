@@ -31,6 +31,10 @@
         "police": {
           "name": "IPD Dang Wangi",
           "phone": "03-26002222"
+        },
+        "hospital": {
+          "name": "Hospital Kuala Lumpur",
+          "phone": "03-26155555"
         }
       }
     },
@@ -65,6 +69,10 @@
         "apm": {
           "name": "APM Cheras",
           "phone": "03-26949611"
+        },
+        "hospital": {
+          "name": "Hospital Kuala Lumpur",
+          "phone": "03-26155555"
         }
       }
     },
