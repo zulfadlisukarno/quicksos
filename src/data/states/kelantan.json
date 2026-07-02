@@ -12,7 +12,7 @@
     {
       "district": "bachok",
       "district_name": "Bachok",
-      "aliases": ["gunong", "jelawat", "tawang", "bekelam", "melawi"],
+      "aliases": ["gunong", "jelawat", "tawang", "bekelam", "melawi", "tok bali"],
       "facilities": {
         "hospital": { "name": "Hospital Bachok", "phone": "09-7843000" },
         "police": { "name": "IPD Bachok", "phone": "09-7788222" },
@@ -23,7 +23,7 @@
     {
       "district": "kota-bharu",
       "district_name": "Kota Bharu",
-      "aliases": ["kota bahru", "kb", "kota bharu", "sultan ibrahim", "nilam puri", "pengkalan chepa", "kubang kerian"],
+      "aliases": ["kota bahru", "kb", "kota bharu", "sultan ibrahim", "nilam puri", "pengkalan chepa", "kubang kerian", "pasir tumboh", "kota darul naim", "ketereh"],
       "facilities": {
         "hospital": { "name": "Hospital Raja Perempuan Zainab II", "phone": "09-7485533" },
         "police": { "name": "IPD Kota Bharu", "phone": "09-7485522" },
@@ -45,7 +45,7 @@
     {
       "district": "jeli",
       "district_name": "Jeli",
-      "aliases": ["jeli", "ayer lanas", "batu melintang", "kuala balah"],
+      "aliases": ["jeli", "ayer lanas", "batu melintang", "kuala balah", "dabong"],
       "facilities": {
         "hospital": { "name": "Hospital Jeli", "phone": "09-9443300" },
         "police": { "name": "IPD Jeli", "phone": "09-9440204" },
@@ -56,18 +56,18 @@
     {
       "district": "kuala-krai",
       "district_name": "Kuala Krai",
-      "aliases": ["kuala krai", "krai", "dabong", "laloh", "manik urai", "pahi", "telekong", "mengkebang"],
+      "aliases": ["kuala krai", "krai", "laloh", "manik urai", "pahi", "telekong", "mengkebang", "sungai durian"],
       "facilities": {
         "hospital": { "name": "Hospital Kuala Krai", "phone": "09-9666333" },
         "police": { "name": "IPD Kuala Krai", "phone": "09-9666222" },
-        "fire": { "name": "BBP Kuala Krai", "phone": "09-9661444" },
+        "fire": { "name": "BBP Kuala Krai", "phone": "09-9666444" },
         "apm": { "name": "APM Kuala Krai", "phone": "09-7474091" }
       }
     },
     {
       "district": "machang",
       "district_name": "Machang",
-      "aliases": ["machang", "banggol judah", "labok", "temangan", "pulai condong"],
+      "aliases": ["machang", "banggol judah", "labok", "temangan", "pulai condong", "kemahang"],
       "facilities": {
         "hospital": { "name": "Hospital Machang", "phone": "09-9752533" },
         "police": { "name": "IPD Machang", "phone": "09-9751222" },
@@ -82,7 +82,7 @@
       "facilities": {
         "hospital": { "name": "Hospital Pasir Mas", "phone": "09-7909333" },
         "police": { "name": "IPD Pasir Mas", "phone": "09-7908222" },
-        "fire": { "name": "BBP Pasir Mas", "phone": "09-7901444" },
+        "fire": { "name": "BBP Pasir Mas", "phone": "09-7909444" },
         "apm": { "name": "APM Pasir Mas", "phone": "09-7474091" }
       }
     },
@@ -115,7 +115,7 @@
       "facilities": {
         "hospital": { "name": "Hospital Tumpat", "phone": "09-7257533" },
         "police": { "name": "IPD Tumpat", "phone": "09-7257222" },
-        "fire": { "name": "BBP Tumpat", "phone": "09-7251444" },
+        "fire": { "name": "BBP Tumpat", "phone": "09-7257444" },
         "apm": { "name": "APM Tumpat", "phone": "09-7474091" }
       }
     }
