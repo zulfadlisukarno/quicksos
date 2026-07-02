@@ -6,7 +6,7 @@
   "state_facilities": {
     "police": { "name": "IPK Kelantan", "phone": "09-7455622" },
     "fire": { "name": "JBPM Kelantan", "phone": "09-7444444" },
-    "apm": { "name": "APM Kelantan", "phone": "09-7474091" }
+    "apm": { "name": "APM Kelantan", "phone": "09-7416160" }
   },
   "districts": [
     {
@@ -17,7 +17,7 @@
         "hospital": { "name": "Hospital Bachok", "phone": "09-7843000" },
         "police": { "name": "IPD Bachok", "phone": "09-7788222" },
         "fire": { "name": "BBP Bachok", "phone": "09-7788444" },
-        "apm": { "name": "APM Bachok", "phone": "09-7474091" }
+        "apm": { "name": "APM Bachok", "phone": "09-7787532" }
       }
     },
     {
@@ -28,7 +28,7 @@
         "hospital": { "name": "Hospital Raja Perempuan Zainab II", "phone": "09-7485533" },
         "police": { "name": "IPD Kota Bharu", "phone": "09-7485522" },
         "fire": { "name": "BBP Kota Bharu", "phone": "09-7484444" },
-        "apm": { "name": "APM Kota Bharu", "phone": "09-7474091" }
+        "apm": { "name": "APM Kota Bharu", "phone": "09-7413041" }
       }
     },
     {
@@ -39,7 +39,7 @@
         "hospital": { "name": "Hospital Gua Musang", "phone": "09-9133300" },
         "police": { "name": "IPD Gua Musang", "phone": "09-9121222" },
         "fire": { "name": "BBP Gua Musang", "phone": "09-9121444" },
-        "apm": { "name": "APM Gua Musang", "phone": "09-7474091" }
+        "apm": { "name": "APM Gua Musang", "phone": "09-9120723" }
       }
     },
     {
@@ -50,7 +50,7 @@
         "hospital": { "name": "Hospital Jeli", "phone": "09-9443300" },
         "police": { "name": "IPD Jeli", "phone": "09-9440204" },
         "fire": { "name": "BBP Jeli", "phone": "09-9440444" },
-        "apm": { "name": "APM Jeli", "phone": "09-7474091" }
+        "apm": { "name": "APM Jeli", "phone": "09-9440231" }
       }
     },
     {
@@ -61,7 +61,7 @@
         "hospital": { "name": "Hospital Kuala Krai", "phone": "09-9666333" },
         "police": { "name": "IPD Kuala Krai", "phone": "09-9666222" },
         "fire": { "name": "BBP Kuala Krai", "phone": "09-9666444" },
-        "apm": { "name": "APM Kuala Krai", "phone": "09-7474091" }
+        "apm": { "name": "APM Kuala Krai", "phone": "09-9609460" }
       }
     },
     {
@@ -72,7 +72,7 @@
         "hospital": { "name": "Hospital Machang", "phone": "09-9752533" },
         "police": { "name": "IPD Machang", "phone": "09-9751222" },
         "fire": { "name": "BBP Machang", "phone": "09-9752444" },
-        "apm": { "name": "APM Machang", "phone": "09-7474091" }
+        "apm": { "name": "APM Machang", "phone": "09-9750260" }
       }
     },
     {
@@ -83,7 +83,7 @@
         "hospital": { "name": "Hospital Pasir Mas", "phone": "09-7909333" },
         "police": { "name": "IPD Pasir Mas", "phone": "09-7908222" },
         "fire": { "name": "BBP Pasir Mas", "phone": "09-7909444" },
-        "apm": { "name": "APM Pasir Mas", "phone": "09-7474091" }
+        "apm": { "name": "APM Pasir Mas", "phone": "09-7922070" }
       }
     },
     {
@@ -94,7 +94,7 @@
         "hospital": { "name": "Hospital Tengku Anis", "phone": "09-7866333" },
         "police": { "name": "IPD Pasir Puteh", "phone": "09-7867222" },
         "fire": { "name": "BBP Pasir Puteh", "phone": "09-7867444" },
-        "apm": { "name": "APM Pasir Puteh", "phone": "09-7474091" }
+        "apm": { "name": "APM Pasir Puteh", "phone": "09-7861392" }
       }
     },
     {
@@ -105,7 +105,7 @@
         "hospital": { "name": "Hospital Tanah Merah", "phone": "09-9557333" },
         "police": { "name": "IPD Tanah Merah", "phone": "09-9556222" },
         "fire": { "name": "BBP Tanah Merah", "phone": "09-9556444" },
-        "apm": { "name": "APM Tanah Merah", "phone": "09-7474091" }
+        "apm": { "name": "APM Tanah Merah", "phone": "09-9502263" }
       }
     },
     {
@@ -116,7 +116,7 @@
         "hospital": { "name": "Hospital Tumpat", "phone": "09-7257533" },
         "police": { "name": "IPD Tumpat", "phone": "09-7257222" },
         "fire": { "name": "BBP Tumpat", "phone": "09-7257444" },
-        "apm": { "name": "APM Tumpat", "phone": "09-7474091" }
+        "apm": { "name": "APM Tumpat", "phone": "09-7254218" }
       }
     }
   ]

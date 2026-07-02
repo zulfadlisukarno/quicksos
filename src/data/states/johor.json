@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Johor",
-      "phone": "07-2349706"
+      "phone": "07-2364567"
     }
   },
   "districts": [
@@ -38,6 +38,10 @@
         "fire": {
           "name": "BBP Johor Bahru",
           "phone": "07-2243444"
+        },
+        "apm": {
+          "name": "APM Johor Bahru",
+          "phone": "07-2347360"
         }
       }
     },
@@ -60,6 +64,10 @@
         "fire": {
           "name": "BBP Batu Pahat",
           "phone": "07-4338444"
+        },
+        "apm": {
+          "name": "APM Batu Pahat",
+          "phone": "07-4339508"
         }
       }
     },
@@ -82,6 +90,10 @@
         "fire": {
           "name": "BBP Muar",
           "phone": "06-9555994"
+        },
+        "apm": {
+          "name": "APM Muar",
+          "phone": "06-9523688"
         }
       }
     },
@@ -103,6 +115,43 @@
         "fire": {
           "name": "BBP Kluang",
           "phone": "07-7724444"
+        },
+        "apm": {
+          "name": "APM Kluang",
+          "phone": "07-7731357"
+        }
+      }
+    },
+    {
+      "district": "segamat",
+      "district_name": "Segamat",
+      "aliases": ["segamat"],
+      "facilities": {
+        "apm": {
+          "name": "APM Segamat",
+          "phone": "07-9321488"
+        }
+      }
+    },
+    {
+      "district": "pontian",
+      "district_name": "Pontian",
+      "aliases": ["pontian"],
+      "facilities": {
+        "apm": {
+          "name": "APM Pontian",
+          "phone": "07-6883694"
+        }
+      }
+    },
+    {
+      "district": "mersing",
+      "district_name": "Mersing",
+      "aliases": ["mersing"],
+      "facilities": {
+        "apm": {
+          "name": "APM Mersing",
+          "phone": "07-7998363"
         }
       }
     }

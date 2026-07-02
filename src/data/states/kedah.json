@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Kedah",
-      "phone": "04-7323810"
+      "phone": "04-7205580"
     }
   },
   "districts": [
@@ -38,6 +38,10 @@
         "fire": {
           "name": "BBP Alor Setar",
           "phone": "04-7344444"
+        },
+        "apm": {
+          "name": "APM Kota Setar",
+          "phone": "04-7205583"
         }
       }
     },
@@ -60,6 +64,10 @@
         "fire": {
           "name": "BBP Sungai Petani",
           "phone": "04-4214444"
+        },
+        "apm": {
+          "name": "APM Kuala Muda",
+          "phone": "04-4233193"
         }
       }
     },
@@ -81,6 +89,32 @@
         "fire": {
           "name": "BBP Kulim",
           "phone": "04-4904444"
+        },
+        "apm": {
+          "name": "APM Kulim",
+          "phone": "04-4952978"
+        }
+      }
+    },
+    {
+      "district": "baling",
+      "district_name": "Baling",
+      "aliases": ["baling"],
+      "facilities": {
+        "apm": {
+          "name": "APM Baling",
+          "phone": "04-4701546"
+        }
+      }
+    },
+    {
+      "district": "kubang-pasu",
+      "district_name": "Kubang Pasu",
+      "aliases": ["kubang pasu"],
+      "facilities": {
+        "apm": {
+          "name": "APM Kubang Pasu",
+          "phone": "04-9171881"
         }
       }
     },

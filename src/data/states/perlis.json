@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Perlis",
-      "phone": "04-9777991"
+      "phone": "04-9762510"
     }
   },
   "districts": [
@@ -32,6 +32,10 @@
         "fire": {
           "name": "BBP Kangar",
           "phone": "04-9760544"
+        },
+        "apm": {
+          "name": "APM Kangar",
+          "phone": "04-9762510"
         }
       }
     },

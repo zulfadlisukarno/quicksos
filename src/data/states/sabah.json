@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Sabah",
-      "phone": "088-232440"
+      "phone": "088-264161"
     }
   },
   "districts": [
@@ -33,6 +33,10 @@
         "fire": {
           "name": "BBP Kota Kinabalu",
           "phone": "088-210214"
+        },
+        "apm": {
+          "name": "APM Kota Kinabalu",
+          "phone": "088-255991"
         }
       }
     },
@@ -67,6 +71,10 @@
         "fire": {
           "name": "BBP Tawau",
           "phone": "089-772525"
+        },
+        "apm": {
+          "name": "APM Tawau",
+          "phone": "089-772225"
         }
       }
     },
@@ -84,6 +92,21 @@
         "fire": {
           "name": "BBP Lahad Datu",
           "phone": "089-881443"
+        },
+        "apm": {
+          "name": "APM Lahad Datu",
+          "phone": "089-880991"
+        }
+      }
+    },
+    {
+      "district": "keningau",
+      "district_name": "Keningau",
+      "aliases": ["keningau"],
+      "facilities": {
+        "apm": {
+          "name": "APM Keningau",
+          "phone": "087-339161"
         }
       }
     }

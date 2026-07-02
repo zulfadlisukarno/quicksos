@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Perak",
-      "phone": "05-5278715"
+      "phone": "05-5288030"
     }
   },
   "districts": [
@@ -32,6 +32,10 @@
         "fire": {
           "name": "BBP Ipoh",
           "phone": "05-5474444"
+        },
+        "apm": {
+          "name": "APM Ipoh",
+          "phone": "05-2427615"
         }
       }
     },
@@ -49,6 +53,10 @@
         "fire": {
           "name": "BBP Taiping",
           "phone": "05-8084444"
+        },
+        "apm": {
+          "name": "APM Taiping",
+          "phone": "05-8473802"
         }
       }
     },
@@ -66,6 +74,10 @@
         "fire": {
           "name": "BBP Batu Gajah",
           "phone": "05-3664444"
+        },
+        "apm": {
+          "name": "APM Batu Gajah",
+          "phone": "05-4658046"
         }
       }
     },

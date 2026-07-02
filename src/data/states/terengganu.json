@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Terengganu",
-      "phone": "09-6668246"
+      "phone": "09-6672991"
     }
   },
   "districts": [
@@ -34,6 +34,10 @@
         "fire": {
           "name": "BBP Kuala Terengganu",
           "phone": "09-6234444"
+        },
+        "apm": {
+          "name": "APM Kuala Terengganu",
+          "phone": "09-6672991"
         }
       }
     },
@@ -70,6 +74,10 @@
         "fire": {
           "name": "BBP Besut",
           "phone": "09-6956444"
+        },
+        "apm": {
+          "name": "APM Besut",
+          "phone": "09-6977846"
         }
       }
     },
@@ -87,6 +95,43 @@
         "fire": {
           "name": "BBP Dungun",
           "phone": "09-8484444"
+        },
+        "apm": {
+          "name": "APM Dungun",
+          "phone": "09-8422031"
+        }
+      }
+    },
+    {
+      "district": "setiu",
+      "district_name": "Setiu",
+      "aliases": ["setiu"],
+      "facilities": {
+        "apm": {
+          "name": "APM Setiu",
+          "phone": "09-6091590"
+        }
+      }
+    },
+    {
+      "district": "marang",
+      "district_name": "Marang",
+      "aliases": ["marang"],
+      "facilities": {
+        "apm": {
+          "name": "APM Marang",
+          "phone": "09-6182557"
+        }
+      }
+    },
+    {
+      "district": "hulu-terengganu",
+      "district_name": "Hulu Terengganu",
+      "aliases": ["hulu terengganu"],
+      "facilities": {
+        "apm": {
+          "name": "APM Hulu Terengganu",
+          "phone": "09-6812991"
         }
       }
     }

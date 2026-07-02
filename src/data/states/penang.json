@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Pulau Pinang",
-      "phone": "04-2288754"
+      "phone": "04-2297804"
     }
   },
   "districts": [
@@ -30,6 +30,10 @@
         "police": {
           "name": "IPD Timur Laut",
           "phone": "04-2181822"
+        },
+        "apm": {
+          "name": "APM Timur Laut",
+          "phone": "04-2283781"
         }
       }
     },
@@ -44,6 +48,10 @@
         "police": {
           "name": "IPD Barat Daya",
           "phone": "04-8662222"
+        },
+        "apm": {
+          "name": "APM Barat Daya",
+          "phone": "04-6451985"
         }
       }
     },
@@ -59,6 +67,10 @@
         "police": {
           "name": "IPD Seberang Perai Utara",
           "phone": "04-5762222"
+        },
+        "apm": {
+          "name": "APM Seberang Perai Utara",
+          "phone": "04-3236401"
         }
       }
     },
@@ -74,6 +86,10 @@
         "police": {
           "name": "IPD Seberang Perai Tengah",
           "phone": "04-5382222"
+        },
+        "apm": {
+          "name": "APM Seberang Perai Tengah",
+          "phone": "04-5304017"
         }
       }
     }

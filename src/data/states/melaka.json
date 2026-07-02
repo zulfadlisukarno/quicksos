@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Melaka",
-      "phone": "06-2324028"
+      "phone": "06-2325466"
     }
   },
   "districts": [
@@ -34,6 +34,10 @@
         "fire": {
           "name": "BBP Melaka Tengah",
           "phone": "06-2838481"
+        },
+        "apm": {
+          "name": "APM Melaka Tengah",
+          "phone": "06-2324179"
         }
       }
     },
@@ -51,6 +55,10 @@
         "fire": {
           "name": "BBP Alor Gajah",
           "phone": "06-5562444"
+        },
+        "apm": {
+          "name": "APM Alor Gajah",
+          "phone": "06-5561991"
         }
       }
     },
@@ -68,6 +76,10 @@
         "fire": {
           "name": "BBP Jasin",
           "phone": "06-5291444"
+        },
+        "apm": {
+          "name": "APM Jasin",
+          "phone": "06-5294610"
         }
       }
     }

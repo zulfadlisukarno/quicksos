@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Negeri Sembilan",
-      "phone": "06-7645755"
+      "phone": "06-7615587"
     }
   },
   "districts": [
@@ -28,6 +28,10 @@
         "police": {
           "name": "IPD Seremban",
           "phone": "06-6014999"
+        },
+        "apm": {
+          "name": "APM Seremban",
+          "phone": "06-7615587"
         }
       }
     },
@@ -41,6 +45,10 @@
         "police": {
           "name": "IPD Kuala Pilah",
           "phone": "06-4842999"
+        },
+        "apm": {
+          "name": "APM Kuala Pilah",
+          "phone": "06-4815297"
         }
       }
     },
@@ -55,6 +63,10 @@
         "police": {
           "name": "IPD Port Dickson",
           "phone": "06-6462999"
+        },
+        "apm": {
+          "name": "APM Port Dickson",
+          "phone": "06-6511179"
         }
       }
     },
@@ -68,6 +80,32 @@
         "police": {
           "name": "IPD Tampin",
           "phone": "06-4431999"
+        },
+        "apm": {
+          "name": "APM Tampin",
+          "phone": "07-9482967"
+        }
+      }
+    },
+    {
+      "district": "jempol",
+      "district_name": "Jempol",
+      "aliases": ["jempol"],
+      "facilities": {
+        "apm": {
+          "name": "APM Jempol",
+          "phone": "06-4542931"
+        }
+      }
+    },
+    {
+      "district": "rembau",
+      "district_name": "Rembau",
+      "aliases": ["rembau"],
+      "facilities": {
+        "apm": {
+          "name": "APM Rembau",
+          "phone": "06-6852073"
         }
       }
     }

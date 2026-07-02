@@ -14,7 +14,7 @@
     },
     "apm": {
       "name": "APM Pahang",
-      "phone": "09-5171991"
+      "phone": "09-5445991"
     }
   },
   "districts": [
@@ -32,6 +32,10 @@
         "fire": {
           "name": "BBP Kuantan",
           "phone": "09-5130994"
+        },
+        "apm": {
+          "name": "APM Kuantan",
+          "phone": "09-5131991"
         }
       }
     },
@@ -49,6 +53,10 @@
         "fire": {
           "name": "BBP Temerloh",
           "phone": "09-2716999"
+        },
+        "apm": {
+          "name": "APM Temerloh",
+          "phone": "09-2967991"
         }
       }
     },
@@ -62,6 +70,10 @@
         "police": {
           "name": "IPD Raub",
           "phone": "09-3552222"
+        },
+        "apm": {
+          "name": "APM Raub",
+          "phone": "09-3550999"
         }
       }
     },
@@ -75,6 +87,10 @@
         "police": {
           "name": "IPD Bentong",
           "phone": "09-2222222"
+        },
+        "apm": {
+          "name": "APM Bentong",
+          "phone": "09-2233368"
         }
       }
     }
