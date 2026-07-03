@@ -137,9 +137,14 @@ async function getLocation() {
       
       const address = await reverseGeocode(latitude, longitude);
       
-      const locationText = address 
-        ? `${address.city || address.town || address.village || address.county || 'Unknown'}, ${address.state || 'Malaysia'}`
-        : `${latitude.toFixed(4)}, ${longitude.toFixed(4)}`;
+      console.log('Address:', address);
+      
+      const district = address.city || address.town || address.village || address.county || address.suburb || address.neighbourhood || '';
+      const state = address.state || '';
+      
+      const locationText = district && state 
+        ? `${district}, ${state}`
+        : district || state || `${latitude.toFixed(4)}, ${longitude.toFixed(4)}`;
       
       locationName.textContent = `📍 ${locationText}`;
       locationInfo.classList.remove('hidden');

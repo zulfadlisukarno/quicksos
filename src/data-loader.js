@@ -94,7 +94,8 @@ export async function getEmergencyContacts(address) {
     };
   }
   
-  const district = findDistrict(stateData, address.district || address.city || address.town || address.village);
+  const districtName = address.district || address.city || address.town || address.village || address.county || address.suburb || address.neighbourhood || '';
+  const district = findDistrict(stateData, districtName);
   
   if (district) {
     return {
