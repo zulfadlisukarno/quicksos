@@ -1,0 +1,111 @@
+{
+  "state": "kuala-lumpur",
+  "state_name": "Kuala Lumpur",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": {
+      "name": "IPK Kuala Lumpur",
+      "phone": "03-21460522"
+    },
+    "fire": {
+      "name": "JBPM Kuala Lumpur",
+      "phone": "03-26913703"
+    },
+    "apm": {
+      "name": "APM Kuala Lumpur",
+      "phone": "03-26925533"
+    }
+  },
+  "districts": [
+    {
+      "district": "dang-wangi",
+      "district_name": "Dang Wangi",
+      "aliases": [
+        "dang wangi",
+        "bukit bintang",
+        "chinatown",
+        "pudu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Dang Wangi",
+          "phone": "03-26002222"
+        },
+        "hospital": {
+          "name": "Hospital Kuala Lumpur",
+          "phone": "03-26155555"
+        }
+      }
+    },
+    {
+      "district": "brickfields",
+      "district_name": "Brickfields",
+      "aliases": [
+        "brickfields",
+        "sentral",
+        "bangsar"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Brickfields",
+          "phone": "03-90516222"
+        }
+      }
+    },
+    {
+      "district": "cheras",
+      "district_name": "Cheras",
+      "aliases": [
+        "cheras",
+        "batu caves",
+        "ampang"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Cheras",
+          "phone": "03-91452222"
+        },
+        "apm": {
+          "name": "APM Cheras",
+          "phone": "03-26949611"
+        },
+        "hospital": {
+          "name": "Hospital Kuala Lumpur",
+          "phone": "03-26155555"
+        }
+      }
+    },
+    {
+      "district": "sentul",
+      "district_name": "Sentul",
+      "aliases": [
+        "sentul",
+        "titiwangsa"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sentul",
+          "phone": "03-40482222"
+        },
+        "apm": {
+          "name": "APM Sentul",
+          "phone": "03-62010704"
+        }
+      }
+    },
+    {
+      "district": "wangsa-maju",
+      "district_name": "Wangsa Maju",
+      "aliases": [
+        "wangsa maju"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Wangsa Maju",
+          "phone": "03-92899222"
+        }
+      }
+    }
+  ]
+}

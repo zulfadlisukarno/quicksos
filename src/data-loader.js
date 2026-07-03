@@ -3,7 +3,7 @@ const stateCache = {};
 
 export async function loadNationalData() {
   if (nationalData) return nationalData;
-  const response = await fetch('/src/data/national.json');
+  const response = await fetch('/data/national.json');
   nationalData = await response.json();
   return nationalData;
 }
@@ -11,7 +11,7 @@ export async function loadNationalData() {
 export async function loadStateData(stateSlug) {
   if (stateCache[stateSlug]) return stateCache[stateSlug];
   try {
-    const response = await fetch(`/src/data/states/${stateSlug}.json`);
+    const response = await fetch(`/data/states/${stateSlug}.json`);
     if (!response.ok) return null;
     stateCache[stateSlug] = await response.json();
     return stateCache[stateSlug];

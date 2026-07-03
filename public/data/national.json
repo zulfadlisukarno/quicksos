@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "contacts": [
+    {
+      "id": "police",
+      "name": "Polis (Police)",
+      "name_ms": "Polis Diraja Malaysia",
+      "number": "999",
+      "description": "Police Emergency",
+      "icon": "🚔"
+    },
+    {
+      "id": "fire",
+      "name": "Bomba (Fire & Rescue)",
+      "name_ms": "Jabatan Bomba dan Penyelamat",
+      "number": "994",
+      "description": "Fire & Rescue",
+      "icon": "🚒"
+    },
+    {
+      "id": "ambulance",
+      "name": "Ambulans (Ambulance)",
+      "name_ms": "Ambulans",
+      "number": "999",
+      "description": "Medical Emergency",
+      "icon": "🚑"
+    },
+    {
+      "id": "apm",
+      "name": "APM (Civil Defence)",
+      "name_ms": "Angkatan Pertahanan Awam Malaysia",
+      "number": "03-2687 1400",
+      "description": "Civil Defence",
+      "icon": "🛡️"
+    },
+    {
+      "id": "mers999",
+      "name": "MERS 999",
+      "name_ms": "Malaysia Emergency Response Services",
+      "number": "999",
+      "description": "General Emergency",
+      "icon": "📞"
+    },
+    {
+      "id": "bantuan_rela",
+      "name": "Bantuan Rela",
+      "name_ms": "Jabatan Sukarelawan Malaysia",
+      "number": "03-8064 2400",
+      "description": "Volunteer Corps",
+      "icon": "🤝"
+    },
+    {
+      "id": "telebom",
+      "name": "TELEBOM",
+      "name_ms": "Talian Kecemasan Bencana",
+      "number": "1-800-88-8888",
+      "description": "Mental Health Crisis",
+      "icon": "🧠"
+    }
+  ]
+}

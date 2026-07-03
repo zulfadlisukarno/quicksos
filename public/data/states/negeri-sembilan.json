@@ -1,0 +1,154 @@
+{
+  "state": "negeri-sembilan",
+  "state_name": "Negeri Sembilan",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": {
+      "name": "IPK Negeri Sembilan",
+      "phone": "06-7619999"
+    },
+    "fire": {
+      "name": "JBPM Negeri Sembilan",
+      "phone": "06-7611444"
+    },
+    "apm": {
+      "name": "APM Negeri Sembilan",
+      "phone": "06-7615587"
+    }
+  },
+  "districts": [
+    {
+      "district": "seremban",
+      "district_name": "Seremban",
+      "aliases": [
+        "seremban"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Seremban",
+          "phone": "06-6033222"
+        },
+        "apm": {
+          "name": "APM Seremban",
+          "phone": "06-7615587"
+        }
+      }
+    },
+    {
+      "district": "kuala-pilah",
+      "district_name": "Kuala Pilah",
+      "aliases": [
+        "kuala pilah"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kuala Pilah",
+          "phone": "06-4842222"
+        },
+        "apm": {
+          "name": "APM Kuala Pilah",
+          "phone": "06-4815297"
+        }
+      }
+    },
+    {
+      "district": "port-dickson",
+      "district_name": "Port Dickson",
+      "aliases": [
+        "port dickson",
+        "pd"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Port Dickson",
+          "phone": "06-6487333"
+        },
+        "police": {
+          "name": "IPD Port Dickson",
+          "phone": "06-6472222"
+        },
+        "apm": {
+          "name": "APM Port Dickson",
+          "phone": "06-6511179"
+        }
+      }
+    },
+    {
+      "district": "tampin",
+      "district_name": "Tampin",
+      "aliases": [
+        "tampin"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Tampin",
+          "phone": "06-4411511"
+        },
+        "police": {
+          "name": "IPD Tampin",
+          "phone": "06-4411222"
+        },
+        "apm": {
+          "name": "APM Tampin",
+          "phone": "07-9482967"
+        }
+      }
+    },
+    {
+      "district": "jempol",
+      "district_name": "Jempol",
+      "aliases": [
+        "jempol"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Jempol",
+          "phone": "06-4592000"
+        },
+        "police": {
+          "name": "IPD Jempol",
+          "phone": "06-4582222"
+        },
+        "apm": {
+          "name": "APM Jempol",
+          "phone": "06-4542931"
+        }
+      }
+    },
+    {
+      "district": "rembau",
+      "district_name": "Rembau",
+      "aliases": [
+        "rembau"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Rembau",
+          "phone": "06-6860600"
+        },
+        "police": {
+          "name": "IPD Rembau",
+          "phone": "06-6852222"
+        },
+        "apm": {
+          "name": "APM Rembau",
+          "phone": "06-6852073"
+        }
+      }
+    },
+    {
+      "district": "jelebu",
+      "district_name": "Jelebu",
+      "aliases": [
+        "jelebu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Jelebu",
+          "phone": "06-6136222"
+        }
+      }
+    }
+  ]
+}

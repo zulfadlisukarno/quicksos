@@ -1,0 +1,462 @@
+{
+  "state": "sarawak",
+  "state_name": "Sarawak",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": {
+      "name": "IPPK Sarawak",
+      "phone": "082-245522"
+    },
+    "fire": {
+      "name": "JBPM Sarawak",
+      "phone": "082-364486"
+    },
+    "apm": {
+      "name": "APM Sarawak",
+      "phone": "082-256685"
+    }
+  },
+  "districts": [
+    {
+      "district": "kuching",
+      "district_name": "Kuching",
+      "aliases": [
+        "kuching"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kuching",
+          "phone": "082-221222"
+        },
+        "fire": {
+          "name": "BBP Kuching",
+          "phone": "082-364486"
+        },
+        "apm": {
+          "name": "APM Kuching",
+          "phone": "082-251478"
+        }
+      }
+    },
+    {
+      "district": "samarahan",
+      "district_name": "Kota Samarahan",
+      "aliases": [
+        "samarahan",
+        "kota samarahan"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kota Samarahan",
+          "phone": "082-662101"
+        },
+        "apm": {
+          "name": "APM Samarahan",
+          "phone": "082-661017"
+        }
+      }
+    },
+    {
+      "district": "serian",
+      "district_name": "Serian",
+      "aliases": [
+        "serian"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Serian",
+          "phone": "082-874244"
+        },
+        "apm": {
+          "name": "APM Serian",
+          "phone": "082-876999"
+        }
+      }
+    },
+    {
+      "district": "sri-aman",
+      "district_name": "Sri Aman",
+      "aliases": [
+        "sri aman"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sri Aman",
+          "phone": "083-322121"
+        },
+        "apm": {
+          "name": "APM Sri Aman",
+          "phone": "083-323813"
+        }
+      }
+    },
+    {
+      "district": "miri",
+      "district_name": "Miri",
+      "aliases": [
+        "miri"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Miri",
+          "phone": "085-420033"
+        },
+        "police": {
+          "name": "IPD Miri",
+          "phone": "085-432533"
+        },
+        "fire": {
+          "name": "BBP Miri",
+          "phone": "085-424144"
+        },
+        "apm": {
+          "name": "APM Miri",
+          "phone": "085-433389"
+        }
+      }
+    },
+    {
+      "district": "bintulu",
+      "district_name": "Bintulu",
+      "aliases": [
+        "bintulu"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Bintulu",
+          "phone": "086-255899"
+        },
+        "police": {
+          "name": "IPD Bintulu",
+          "phone": "086-331121"
+        },
+        "apm": {
+          "name": "APM Bintulu",
+          "phone": "086-339781"
+        }
+      }
+    },
+    {
+      "district": "sibu",
+      "district_name": "Sibu",
+      "aliases": [
+        "sibu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sibu",
+          "phone": "084-322222"
+        },
+        "fire": {
+          "name": "BBP Sibu",
+          "phone": "084-330343"
+        },
+        "apm": {
+          "name": "APM Sibu",
+          "phone": "084-320312"
+        }
+      }
+    },
+    {
+      "district": "limbang",
+      "district_name": "Limbang",
+      "aliases": [
+        "limbang"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Limbang",
+          "phone": "085-211466"
+        },
+        "apm": {
+          "name": "APM Limbang",
+          "phone": "085-215474"
+        }
+      }
+    },
+    {
+      "district": "debak",
+      "district_name": "Debak",
+      "aliases": [
+        "debak"
+      ],
+      "facilities": {
+        "apm": {
+          "name": "APM Debak",
+          "phone": "083-464604"
+        }
+      }
+    },
+    {
+      "district": "kanowit",
+      "district_name": "Kanowit",
+      "aliases": [
+        "kanowit"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kanowit",
+          "phone": "084-752222"
+        },
+        "apm": {
+          "name": "APM Kanowit",
+          "phone": "084-320312"
+        }
+      }
+    },
+    {
+      "district": "kapit",
+      "district_name": "Kapit",
+      "aliases": [
+        "kapit"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kapit",
+          "phone": "084-796222"
+        },
+        "apm": {
+          "name": "APM Kapit",
+          "phone": "084-796330"
+        }
+      }
+    },
+    {
+      "district": "betong",
+      "district_name": "Betong",
+      "aliases": [
+        "betong"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Betong",
+          "phone": "083-472345"
+        },
+        "apm": {
+          "name": "APM Betong",
+          "phone": "083-472861"
+        }
+      }
+    },
+    {
+      "district": "mukah",
+      "district_name": "Mukah",
+      "aliases": [
+        "mukah"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Mukah",
+          "phone": "084-871222"
+        },
+        "apm": {
+          "name": "APM Mukah",
+          "phone": "084-874255"
+        }
+      }
+    },
+    {
+      "district": "sarikei",
+      "district_name": "Sarikei",
+      "aliases": [
+        "sarikei"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Sarikei",
+          "phone": "084-652620"
+        },
+        "apm": {
+          "name": "APM Sarikei",
+          "phone": "084-659958"
+        }
+      }
+    },
+    {
+      "district": "bau",
+      "district_name": "Bau",
+      "aliases": [
+        "bau"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Bau",
+          "phone": "082-764100"
+        },
+        "apm": {
+          "name": "APM Bau",
+          "phone": "082-762206"
+        }
+      }
+    },
+    {
+      "district": "matu",
+      "district_name": "Matu",
+      "aliases": [
+        "matu"
+      ],
+      "facilities": {
+        "apm": {
+          "name": "APM Matu",
+          "phone": "084-832208"
+        }
+      }
+    },
+    {
+      "district": "daro",
+      "district_name": "Daro",
+      "aliases": [
+        "daro"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Daro",
+          "phone": "084-823222"
+        },
+        "apm": {
+          "name": "APM Daro",
+          "phone": "084-823911"
+        }
+      }
+    },
+    {
+      "district": "sematan",
+      "district_name": "Sematan",
+      "aliases": [
+        "sematan"
+      ],
+      "facilities": {
+        "apm": {
+          "name": "APM Sematan",
+          "phone": "082-711292"
+        }
+      }
+    },
+    {
+      "district": "lawas",
+      "district_name": "Lawas",
+      "aliases": [
+        "lawas"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Lawas",
+          "phone": "085-285311"
+        },
+        "apm": {
+          "name": "APM Lawas",
+          "phone": "085-262073"
+        }
+      }
+    },
+    {
+      "district": "belaga",
+      "district_name": "Belaga",
+      "aliases": [
+        "belaga"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Belaga",
+          "phone": "019-8290270"
+        },
+        "apm": {
+          "name": "APM Belaga",
+          "phone": "086-461416"
+        }
+      }
+    },
+    {
+      "district": "tanjung-manes",
+      "district_name": "Tanjung Manis",
+      "aliases": [
+        "tanjung manis"
+      ],
+      "facilities": {
+        "apm": {
+          "name": "APM Tanjung Manis",
+          "phone": "084-613051"
+        }
+      }
+    },
+    {
+      "district": "julau",
+      "district_name": "Julau",
+      "aliases": [
+        "julau"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Julau",
+          "phone": "084-734216"
+        }
+      }
+    },
+    {
+      "district": "lubok-antu",
+      "district_name": "Lubok Antu",
+      "aliases": [
+        "lubok antu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Lubok Antu",
+          "phone": "083-584102"
+        }
+      }
+    },
+    {
+      "district": "lundu",
+      "district_name": "Lundu",
+      "aliases": [
+        "lundu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Lundu",
+          "phone": "082-735516"
+        }
+      }
+    },
+    {
+      "district": "marudi",
+      "district_name": "Marudi",
+      "aliases": [
+        "marudi"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Marudi",
+          "phone": "085-755961"
+        }
+      }
+    },
+    {
+      "district": "padawan",
+      "district_name": "Padawan",
+      "aliases": [
+        "padawan"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Padawan",
+          "phone": "082-862642"
+        }
+      }
+    },
+    {
+      "district": "saratok",
+      "district_name": "Saratok",
+      "aliases": [
+        "saratok"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Saratok",
+          "phone": "083-436102"
+        }
+      }
+    }
+  ]
+}

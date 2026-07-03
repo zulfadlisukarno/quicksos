@@ -1,0 +1,127 @@
+{
+  "state": "penang",
+  "state_name": "Pulau Pinang",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": {
+      "name": "IPK Pulau Pinang",
+      "phone": "04-2221522"
+    },
+    "fire": {
+      "name": "JBPM Pulau Pinang",
+      "phone": "04-2221444"
+    },
+    "apm": {
+      "name": "APM Pulau Pinang",
+      "phone": "04-2297804"
+    }
+  },
+  "districts": [
+    {
+      "district": "timur-laut",
+      "district_name": "Timur Laut",
+      "aliases": [
+        "timur laut",
+        "george town",
+        "penang"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Pulau Pinang",
+          "phone": "04-2225333"
+        },
+        "police": {
+          "name": "IPD Timur Laut",
+          "phone": "04-2181822"
+        },
+        "apm": {
+          "name": "APM Timur Laut",
+          "phone": "04-2283781"
+        }
+      }
+    },
+    {
+      "district": "barat-daya",
+      "district_name": "Barat Daya",
+      "aliases": [
+        "barat daya",
+        "bayan lepas"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Balik Pulau",
+          "phone": "04-8669333"
+        },
+        "police": {
+          "name": "IPD Barat Daya",
+          "phone": "04-8662222"
+        },
+        "apm": {
+          "name": "APM Barat Daya",
+          "phone": "04-6451985"
+        }
+      }
+    },
+    {
+      "district": "seberang-perai-utara",
+      "district_name": "Seberang Perai Utara",
+      "aliases": [
+        "seberang perai utara",
+        "spu",
+        "nibong tebal"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Kepala Batas",
+          "phone": "04-5793333"
+        },
+        "police": {
+          "name": "IPD Seberang Perai Utara",
+          "phone": "04-5762222"
+        },
+        "apm": {
+          "name": "APM Seberang Perai Utara",
+          "phone": "04-3236401"
+        }
+      }
+    },
+    {
+      "district": "seberang-perai-tengah",
+      "district_name": "Seberang Perai Tengah",
+      "aliases": [
+        "seberang perai tengah",
+        "spt",
+        "bukit mertajam"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Bukit Mertajam",
+          "phone": "04-5497333"
+        },
+        "police": {
+          "name": "IPD Seberang Perai Tengah",
+          "phone": "04-5382222"
+        },
+        "apm": {
+          "name": "APM Seberang Perai Tengah",
+          "phone": "04-5304017"
+        }
+      }
+    },
+    {
+      "district": "seberang-perai-selatan",
+      "district_name": "Seberang Perai Selatan",
+      "aliases": [
+        "seberang perai selatan",
+        "sps"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Seberang Perai Selatan",
+          "phone": "04-5824222"
+        }
+      }
+    }
+  ]
+}

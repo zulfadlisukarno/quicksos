@@ -1,0 +1,99 @@
+{
+  "state": "melaka",
+  "state_name": "Melaka",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": {
+      "name": "IPK Melaka",
+      "phone": "06-2854222"
+    },
+    "fire": {
+      "name": "JBPM Melaka",
+      "phone": "06-2316844"
+    },
+    "apm": {
+      "name": "APM Melaka",
+      "phone": "06-2325466"
+    }
+  },
+  "districts": [
+    {
+      "district": "melaka-tengah",
+      "district_name": "Melaka Tengah",
+      "aliases": [
+        "melaka tengah",
+        "melaka",
+        "bandar hilir"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Melaka",
+          "phone": "06-2892344"
+        },
+        "police": {
+          "name": "IPD Melaka Tengah",
+          "phone": "06-2842222"
+        },
+        "fire": {
+          "name": "BBP Melaka Tengah",
+          "phone": "06-2838481"
+        },
+        "apm": {
+          "name": "APM Melaka Tengah",
+          "phone": "06-2324179"
+        }
+      }
+    },
+    {
+      "district": "alor-gajah",
+      "district_name": "Alor Gajah",
+      "aliases": [
+        "alor gajah"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Alor Gajah",
+          "phone": "06-5562333"
+        },
+        "police": {
+          "name": "IPD Alor Gajah",
+          "phone": "06-5562222"
+        },
+        "fire": {
+          "name": "BBP Alor Gajah",
+          "phone": "06-5562444"
+        },
+        "apm": {
+          "name": "APM Alor Gajah",
+          "phone": "06-5561991"
+        }
+      }
+    },
+    {
+      "district": "jasin",
+      "district_name": "Jasin",
+      "aliases": [
+        "jasin"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Jasin",
+          "phone": "06-5294262"
+        },
+        "police": {
+          "name": "IPD Jasin",
+          "phone": "06-5292222"
+        },
+        "fire": {
+          "name": "BBP Jasin",
+          "phone": "06-5291444"
+        },
+        "apm": {
+          "name": "APM Jasin",
+          "phone": "06-5294610"
+        }
+      }
+    }
+  ]
+}

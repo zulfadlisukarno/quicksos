@@ -1,0 +1,177 @@
+{
+  "state": "terengganu",
+  "state_name": "Terengganu",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": {
+      "name": "IPK Terengganu",
+      "phone": "09-6354722"
+    },
+    "fire": {
+      "name": "JBPM Terengganu",
+      "phone": "09-6234444"
+    },
+    "apm": {
+      "name": "APM Terengganu",
+      "phone": "09-6672991"
+    }
+  },
+  "districts": [
+    {
+      "district": "kuala-terengganu",
+      "district_name": "Kuala Terengganu",
+      "aliases": [
+        "kuala terengganu",
+        "kt",
+        "kuala terengganu"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Sultanah Nur Zahirah",
+          "phone": "09-6212121"
+        },
+        "police": {
+          "name": "IPD Kuala Terengganu",
+          "phone": "09-6322222"
+        },
+        "fire": {
+          "name": "BBP Kuala Terengganu",
+          "phone": "09-6234444"
+        },
+        "apm": {
+          "name": "APM Kuala Terengganu",
+          "phone": "09-6672991"
+        }
+      }
+    },
+    {
+      "district": "kemaman",
+      "district_name": "Kemaman",
+      "aliases": [
+        "kemaman",
+        "kerteh"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Kemaman",
+          "phone": "09-8513333"
+        },
+        "police": {
+          "name": "IPD Kemaman",
+          "phone": "09-8592222"
+        },
+        "fire": {
+          "name": "BBP Kemaman",
+          "phone": "09-8594444"
+        }
+      }
+    },
+    {
+      "district": "besut",
+      "district_name": "Besut",
+      "aliases": [
+        "besut",
+        "kampung raja"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Besut",
+          "phone": "09-6971130"
+        },
+        "police": {
+          "name": "IPD Besut",
+          "phone": "09-6956222"
+        },
+        "fire": {
+          "name": "BBP Besut",
+          "phone": "09-6956444"
+        },
+        "apm": {
+          "name": "APM Besut",
+          "phone": "09-6977846"
+        }
+      }
+    },
+    {
+      "district": "dungun",
+      "district_name": "Dungun",
+      "aliases": [
+        "dungun"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Dungun",
+          "phone": "09-8483333"
+        },
+        "police": {
+          "name": "IPD Dungun",
+          "phone": "09-8482222"
+        },
+        "fire": {
+          "name": "BBP Dungun",
+          "phone": "09-8484444"
+        },
+        "apm": {
+          "name": "APM Dungun",
+          "phone": "09-8422031"
+        }
+      }
+    },
+    {
+      "district": "setiu",
+      "district_name": "Setiu",
+      "aliases": [
+        "setiu"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Setiu",
+          "phone": "09-6090333"
+        },
+        "police": {
+          "name": "IPD Setiu",
+          "phone": "09-6098222"
+        },
+        "apm": {
+          "name": "APM Setiu",
+          "phone": "09-6091590"
+        }
+      }
+    },
+    {
+      "district": "marang",
+      "district_name": "Marang",
+      "aliases": [
+        "marang"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Marang",
+          "phone": "09-6182222"
+        },
+        "apm": {
+          "name": "APM Marang",
+          "phone": "09-6182557"
+        }
+      }
+    },
+    {
+      "district": "hulu-terengganu",
+      "district_name": "Hulu Terengganu",
+      "aliases": [
+        "hulu terengganu"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Hulu Terengganu",
+          "phone": "09-6811222"
+        },
+        "apm": {
+          "name": "APM Hulu Terengganu",
+          "phone": "09-6812991"
+        }
+      }
+    }
+  ]
+}

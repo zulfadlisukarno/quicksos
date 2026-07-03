@@ -1,0 +1,205 @@
+{
+  "state": "pahang",
+  "state_name": "Pahang",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": {
+      "name": "IPK Pahang",
+      "phone": "09-5052222"
+    },
+    "fire": {
+      "name": "JBPM Pahang",
+      "phone": "09-5732978"
+    },
+    "apm": {
+      "name": "APM Pahang",
+      "phone": "09-5445991"
+    }
+  },
+  "districts": [
+    {
+      "district": "kuantan",
+      "district_name": "Kuantan",
+      "aliases": [
+        "kuantan"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Tengku Ampuan Afzan",
+          "phone": "09-5133333"
+        },
+        "police": {
+          "name": "IPD Kuantan",
+          "phone": "09-5652222"
+        },
+        "fire": {
+          "name": "BBP Kuantan",
+          "phone": "09-5130994"
+        },
+        "apm": {
+          "name": "APM Kuantan",
+          "phone": "09-5131991"
+        }
+      }
+    },
+    {
+      "district": "temerloh",
+      "district_name": "Temerloh",
+      "aliases": [
+        "temerloh"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Sultan Haji Ahmad Shah",
+          "phone": "09-2955333"
+        },
+        "police": {
+          "name": "IPD Temerloh",
+          "phone": "09-3964999"
+        },
+        "fire": {
+          "name": "BBP Temerloh",
+          "phone": "09-2716999"
+        },
+        "apm": {
+          "name": "APM Temerloh",
+          "phone": "09-2967991"
+        }
+      }
+    },
+    {
+      "district": "raub",
+      "district_name": "Raub",
+      "aliases": [
+        "raub"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Raub",
+          "phone": "09-3553333"
+        },
+        "police": {
+          "name": "IPD Raub",
+          "phone": "09-3554999"
+        },
+        "apm": {
+          "name": "APM Raub",
+          "phone": "09-3550999"
+        }
+      }
+    },
+    {
+      "district": "bentong",
+      "district_name": "Bentong",
+      "aliases": [
+        "bentong"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Bentong",
+          "phone": "09-2223333"
+        },
+        "police": {
+          "name": "IPD Bentong",
+          "phone": "09-2222222"
+        },
+        "apm": {
+          "name": "APM Bentong",
+          "phone": "09-2233368"
+        }
+      }
+    },
+    {
+      "district": "bera",
+      "district_name": "Bera",
+      "aliases": [
+        "bera"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Bera",
+          "phone": "09-2508222"
+        }
+      }
+    },
+    {
+      "district": "cameron-highlands",
+      "district_name": "Cameron Highlands",
+      "aliases": [
+        "cameron highlands"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Cameron Highlands",
+          "phone": "05-4911222"
+        }
+      }
+    },
+    {
+      "district": "jerantut",
+      "district_name": "Jerantut",
+      "aliases": [
+        "jerantut"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Jerantut",
+          "phone": "09-2662222"
+        }
+      }
+    },
+    {
+      "district": "kuala-lipis",
+      "district_name": "Kuala Lipis",
+      "aliases": [
+        "kuala lipis"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kuala Lipis",
+          "phone": "09-3122204"
+        }
+      }
+    },
+    {
+      "district": "maran",
+      "district_name": "Maran",
+      "aliases": [
+        "maran"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Maran",
+          "phone": "09-4771222"
+        }
+      }
+    },
+    {
+      "district": "pekan",
+      "district_name": "Pekan",
+      "aliases": [
+        "pekan"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Pekan",
+          "phone": "09-4221222"
+        }
+      }
+    },
+    {
+      "district": "rompin",
+      "district_name": "Rompin",
+      "aliases": [
+        "rompin"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Rompin",
+          "phone": "09-4145999"
+        }
+      }
+    }
+  ]
+}

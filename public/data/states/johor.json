@@ -1,0 +1,221 @@
+{
+  "state": "johor",
+  "state_name": "Johor",
+  "version": "1.0",
+  "last_updated": "2026-01-07",
+  "state_facilities": {
+    "police": {
+      "name": "IPK Johor",
+      "phone": "07-2254422"
+    },
+    "fire": {
+      "name": "JBPM Johor",
+      "phone": "07-2248281"
+    },
+    "apm": {
+      "name": "APM Johor",
+      "phone": "07-2364567"
+    }
+  },
+  "districts": [
+    {
+      "district": "johor-bahru",
+      "district_name": "Johor Bahru",
+      "aliases": [
+        "johor bahru",
+        "jb",
+        "johor jaya"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Sultanah Aminah",
+          "phone": "07-2231666"
+        },
+        "police": {
+          "name": "IPD Johor Bahru",
+          "phone": "07-2232222"
+        },
+        "fire": {
+          "name": "BBP Johor Bahru",
+          "phone": "07-2243444"
+        },
+        "apm": {
+          "name": "APM Johor Bahru",
+          "phone": "07-2347360"
+        }
+      }
+    },
+    {
+      "district": "batu-pahat",
+      "district_name": "Batu Pahat",
+      "aliases": [
+        "batu pahat",
+        "bp"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Batu Pahat",
+          "phone": "07-4363000"
+        },
+        "police": {
+          "name": "IPD Batu Pahat",
+          "phone": "07-4348171"
+        },
+        "fire": {
+          "name": "BBP Batu Pahat",
+          "phone": "07-4338444"
+        },
+        "apm": {
+          "name": "APM Batu Pahat",
+          "phone": "07-4339508"
+        }
+      }
+    },
+    {
+      "district": "muar",
+      "district_name": "Muar",
+      "aliases": [
+        "muar",
+        "bandar maharani"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Pakar Sultanah Fatimah",
+          "phone": "06-9564000"
+        },
+        "police": {
+          "name": "IPD Muar",
+          "phone": "06-9526001"
+        },
+        "fire": {
+          "name": "BBP Muar",
+          "phone": "06-9555994"
+        },
+        "apm": {
+          "name": "APM Muar",
+          "phone": "06-9523688"
+        }
+      }
+    },
+    {
+      "district": "kluang",
+      "district_name": "Kluang",
+      "aliases": [
+        "kluang"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Kluang",
+          "phone": "07-7723333"
+        },
+        "police": {
+          "name": "IPD Kluang",
+          "phone": "07-7766822"
+        },
+        "fire": {
+          "name": "BBP Kluang",
+          "phone": "07-7724444"
+        },
+        "apm": {
+          "name": "APM Kluang",
+          "phone": "07-7731357"
+        }
+      }
+    },
+    {
+      "district": "kota-tinggi",
+      "district_name": "Kota Tinggi",
+      "aliases": [
+        "kota tinggi"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kota Tinggi",
+          "phone": "07-8822410"
+        }
+      }
+    },
+    {
+      "district": "kulai",
+      "district_name": "Kulai",
+      "aliases": [
+        "kulai"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Kulai",
+          "phone": "07-6622522"
+        }
+      }
+    },
+    {
+      "district": "ledang",
+      "district_name": "Ledang",
+      "aliases": [
+        "ledang",
+        "tangkak"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Ledang",
+          "phone": "06-9781222"
+        }
+      }
+    },
+    {
+      "district": "mersing",
+      "district_name": "Mersing",
+      "aliases": [
+        "mersing"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Mersing",
+          "phone": "07-7993507"
+        },
+        "apm": {
+          "name": "APM Mersing",
+          "phone": "07-7998363"
+        }
+      }
+    },
+    {
+      "district": "pontian",
+      "district_name": "Pontian",
+      "aliases": [
+        "pontian"
+      ],
+      "facilities": {
+        "police": {
+          "name": "IPD Pontian",
+          "phone": "07-6869999"
+        },
+        "apm": {
+          "name": "APM Pontian",
+          "phone": "07-6883694"
+        }
+      }
+    },
+    {
+      "district": "segamat",
+      "district_name": "Segamat",
+      "aliases": [
+        "segamat"
+      ],
+      "facilities": {
+        "hospital": {
+          "name": "Hospital Segamat",
+          "phone": "07-9433333"
+        },
+        "police": {
+          "name": "IPD Segamat",
+          "phone": "07-9312222"
+        },
+        "apm": {
+          "name": "APM Segamat",
+          "phone": "07-9321488"
+        }
+      }
+    }
+  ]
+}
