@@ -139,7 +139,7 @@ async function getLocation() {
       
       console.log('Address:', address);
       
-      const district = address.city || address.town || address.village || address.county || address.suburb || address.neighbourhood || '';
+      const district = address.district || address.city || address.town || address.village || address.county || address.suburb || address.neighbourhood || '';
       const state = address.state || '';
       
       const locationText = district && state 
