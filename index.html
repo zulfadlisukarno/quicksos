@@ -15,6 +15,15 @@
   <link rel="manifest" href="/manifest.json">
   <title>QuickSOS</title>
   <link rel="stylesheet" href="/style.css">
+  <script>
+    window.deferredInstallPrompt = null;
+    window.addEventListener('beforeinstallprompt', function(e) {
+      e.preventDefault();
+      window.deferredInstallPrompt = e;
+      var btn = document.getElementById('install-btn');
+      if (btn) btn.classList.remove('hidden');
+    });
+  </script>
 </head>
 <body>
   <div id="app">

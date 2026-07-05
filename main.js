@@ -185,7 +185,6 @@ window.getLocation = getLocation;
 getLocation();
 
 // PWA Install Prompt
-let deferredPrompt = null;
 const installBanner = document.getElementById('install-banner');
 const installBtn = document.getElementById('install-btn');
 const dismissInstallBtn = document.getElementById('dismiss-install-btn');
@@ -200,8 +199,12 @@ function isIos() {
   return /iphone|ipad|ipod/.test(window.navigator.userAgent.toLowerCase());
 }
 
+function isAndroid() {
+  return /android/.test(window.navigator.userAgent.toLowerCase());
+}
+
 function isMobile() {
-  return /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/.test(
+  return isIos() || isAndroid() || /webos|blackberry|iemobile|opera mini/.test(
     window.navigator.userAgent.toLowerCase()
   );
 }
@@ -219,29 +222,29 @@ function showInstallBanner() {
 
   if (isIos()) {
     iosHint?.classList.remove('hidden');
-  }
-
-  if (deferredPrompt) {
+    installBtn?.classList.add('hidden');
+  } else if (isAndroid()) {
     installBtn?.classList.remove('hidden');
+    iosHint?.classList.add('hidden');
+  } else {
+    installBtn?.classList.remove('hidden');
+    iosHint?.classList.add('hidden');
   }
 }
 
-// Capture beforeinstallprompt early
-window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
-  installBtn?.classList.remove('hidden');
-});
-
 installBtn?.addEventListener('click', async () => {
-  if (!deferredPrompt) return;
-  deferredPrompt.prompt();
-  const { outcome } = await deferredPrompt.userChoice;
-  if (outcome === 'accepted') {
-    localStorage.setItem('quicksos-install-dismissed', 'installed');
+  const prompt = window.deferredInstallPrompt;
+  if (prompt) {
+    prompt.prompt();
+    const { outcome } = await prompt.userChoice;
+    if (outcome === 'accepted') {
+      localStorage.setItem('quicksos-install-dismissed', 'installed');
+    }
+    window.deferredInstallPrompt = null;
+    installBanner?.classList.add('hidden');
+  } else {
+    alert('Pilihan pasang tidak tersedia. Sila gunakan menu pelayar anda untuk \"Add to Home Screen\".');
   }
-  deferredPrompt = null;
-  installBanner?.classList.add('hidden');
 });
 
 dismissInstallBtn?.addEventListener('click', () => {
@@ -252,10 +255,10 @@ dismissInstallBtn?.addEventListener('click', () => {
 window.addEventListener('appinstalled', () => {
   localStorage.setItem('quicksos-install-dismissed', 'installed');
   installBanner?.classList.add('hidden');
-  deferredPrompt = null;
+  window.deferredInstallPrompt = null;
 });
 
-// Show banner for mobile users even if beforeinstallprompt never fires
+// Show banner for mobile users
 if (isMobile()) {
   showInstallBanner();
 }
