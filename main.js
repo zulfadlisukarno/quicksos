@@ -219,6 +219,7 @@ function showInstallBanner() {
   if (!installBanner || !shouldShowInstallBanner()) return;
 
   installBanner.classList.remove('hidden');
+  console.log('[QuickSOS] Install banner shown. deferredInstallPrompt:', !!window.deferredInstallPrompt, 'HTTPS:', location.protocol === 'https:');
 
   if (isIos()) {
     iosHint?.classList.remove('hidden');
@@ -243,7 +244,12 @@ installBtn?.addEventListener('click', async () => {
     window.deferredInstallPrompt = null;
     installBanner?.classList.add('hidden');
   } else {
-    alert('Pilihan pasang tidak tersedia. Sila gunakan menu pelayar anda untuk \"Add to Home Screen\".');
+    const isHttps = location.protocol === 'https:' || location.hostname === 'localhost';
+    if (!isHttps) {
+      alert('Pemasangan PWA memerlukan sambungan HTTPS. Sila akses laman ini melalui HTTPS atau gunakan menu pelayar anda untuk \"Add to Home Screen\".');
+    } else {
+      alert('Pilihan pasang tidak tersedia. Sila gunakan menu pelayar anda untuk \"Add to Home Screen\".');
+    }
   }
 });
 

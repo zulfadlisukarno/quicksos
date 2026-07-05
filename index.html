@@ -20,6 +20,7 @@
     window.addEventListener('beforeinstallprompt', function(e) {
       e.preventDefault();
       window.deferredInstallPrompt = e;
+      console.log('[QuickSOS] beforeinstallprompt captured');
       var btn = document.getElementById('install-btn');
       if (btn) btn.classList.remove('hidden');
     });
