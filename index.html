@@ -24,6 +24,16 @@
     </header>
 
     <main>
+      <div id="install-banner" class="hidden">
+        <div class="install-content">
+          <p>📲 Tambah QuickSOS ke skrin utama untuk akses pantas</p>
+          <div class="install-actions">
+            <button id="install-btn" class="install-btn">Pasang</button>
+            <button id="dismiss-install-btn" class="dismiss-btn">Tutup</button>
+          </div>
+        </div>
+      </div>
+
       <div id="location-status" class="status">
         <div class="spinner" id="spinner"></div>
         <p id="status-text">Mendapatkan lokasi anda...</p>
@@ -56,8 +66,33 @@
       </div>
     </main>
 
+    <div id="tip-banner" class="tip-banner">
+      <button id="tip-btn" class="tip-link">
+        ☕ Sumbang secawan kopi
+      </button>
+    </div>
+
+    <div id="tip-modal" class="modal hidden">
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <h3>☕ Sokong QuickSOS</h3>
+        <p>QuickSOS adalah perkhidmatan percuma untuk komuniti. Sumbangan anda membantu menampung:</p>
+        <ul>
+          <li>🖥️ Penyelenggaraan pelayan & hosting</li>
+          <li>🌐 Pembaharuan domain tahunan</li>
+          <li>📋 Mengemaskini data kecemasan</li>
+          <li>🔒 Sijil keselamatan (SSL)</li>
+        </ul>
+        <p class="modal-note">Terima kasih atas sokongan anda!</p>
+        <div class="modal-actions">
+          <a id="proceed-tip-btn" href="https://ko-fi.com/zulfadlisukarno" target="_blank" rel="noopener" class="install-btn">Teruskan ke Ko-fi</a>
+          <button id="close-tip-btn" class="dismiss-btn">Tutup</button>
+        </div>
+      </div>
+    </div>
+
     <footer>
-      <p>Selamat. Selamatkan nyawa.</p>
+      <p>Pantas. Tepat. Selamat.</p>
     </footer>
   </div>
 

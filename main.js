@@ -183,3 +183,68 @@ async function getLocation() {
 window.getLocation = getLocation;
 
 getLocation();
+
+// PWA Install Prompt
+let deferredPrompt;
+const installBanner = document.getElementById('install-banner');
+const installBtn = document.getElementById('install-btn');
+const dismissInstallBtn = document.getElementById('dismiss-install-btn');
+
+const hasDismissedInstall = localStorage.getItem('quicksos-install-dismissed');
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+
+  if (!hasDismissedInstall && installBanner) {
+    installBanner.classList.remove('hidden');
+  }
+});
+
+installBtn?.addEventListener('click', async () => {
+  if (!deferredPrompt) return;
+  deferredPrompt.prompt();
+  const { outcome } = await deferredPrompt.userChoice;
+  if (outcome === 'accepted') {
+    localStorage.setItem('quicksos-install-dismissed', 'installed');
+  }
+  deferredPrompt = null;
+  installBanner?.classList.add('hidden');
+});
+
+dismissInstallBtn?.addEventListener('click', () => {
+  localStorage.setItem('quicksos-install-dismissed', 'true');
+  installBanner?.classList.add('hidden');
+});
+
+window.addEventListener('appinstalled', () => {
+  localStorage.setItem('quicksos-install-dismissed', 'installed');
+  installBanner?.classList.add('hidden');
+  deferredPrompt = null;
+});
+
+// Tip Modal
+const tipBtn = document.getElementById('tip-btn');
+const tipModal = document.getElementById('tip-modal');
+const closeTipBtn = document.getElementById('close-tip-btn');
+const modalOverlay = tipModal?.querySelector('.modal-overlay');
+
+function openTipModal() {
+  tipModal?.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeTipModal() {
+  tipModal?.classList.add('hidden');
+  document.body.style.overflow = '';
+}
+
+tipBtn?.addEventListener('click', openTipModal);
+closeTipBtn?.addEventListener('click', closeTipModal);
+modalOverlay?.addEventListener('click', closeTipModal);
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && tipModal && !tipModal.classList.contains('hidden')) {
+    closeTipModal();
+  }
+});

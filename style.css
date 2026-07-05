@@ -210,6 +210,175 @@ main {
   background: var(--primary-dark);
 }
 
+/* Install Banner */
+#install-banner {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 2px solid var(--primary);
+}
+
+.install-content p {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.install-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.install-btn {
+  flex: 1;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.install-btn:hover {
+  background: var(--primary-dark);
+}
+
+.dismiss-btn {
+  flex: 1;
+  background: transparent;
+  color: var(--text-light);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dismiss-btn:hover {
+  background: var(--bg);
+}
+
+/* Tip Banner */
+.tip-banner {
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.tip-link {
+  display: inline-block;
+  background: #ff5e5b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.tip-link:hover {
+  background: #e54d4a;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: relative;
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  animation: modalIn 0.2s ease-out;
+}
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modal-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  color: var(--text);
+  text-align: center;
+}
+
+.modal-content p {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.modal-content ul {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.modal-content li {
+  font-size: 0.9rem;
+  color: var(--text);
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-content li:last-child {
+  border-bottom: none;
+}
+
+.modal-note {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.modal-actions .install-btn,
+.modal-actions .dismiss-btn {
+  flex: 1;
+  text-align: center;
+}
+
 footer {
   text-align: center;
   padding: 20px 0;
