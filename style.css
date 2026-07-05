@@ -227,6 +227,15 @@ main {
   text-align: center;
 }
 
+.install-hint {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  background: var(--bg);
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
 .install-actions {
   display: flex;
   gap: 10px;

@@ -185,20 +185,52 @@ window.getLocation = getLocation;
 getLocation();
 
 // PWA Install Prompt
-let deferredPrompt;
+let deferredPrompt = null;
 const installBanner = document.getElementById('install-banner');
 const installBtn = document.getElementById('install-btn');
 const dismissInstallBtn = document.getElementById('dismiss-install-btn');
+const iosHint = document.getElementById('ios-hint');
 
-const hasDismissedInstall = localStorage.getItem('quicksos-install-dismissed');
+function isRunningAsPwa() {
+  return window.matchMedia('(display-mode: standalone)').matches ||
+         window.navigator.standalone === true;
+}
 
+function isIos() {
+  return /iphone|ipad|ipod/.test(window.navigator.userAgent.toLowerCase());
+}
+
+function isMobile() {
+  return /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/.test(
+    window.navigator.userAgent.toLowerCase()
+  );
+}
+
+function shouldShowInstallBanner() {
+  if (isRunningAsPwa()) return false;
+  const dismissed = localStorage.getItem('quicksos-install-dismissed');
+  return dismissed !== 'true' && dismissed !== 'installed';
+}
+
+function showInstallBanner() {
+  if (!installBanner || !shouldShowInstallBanner()) return;
+
+  installBanner.classList.remove('hidden');
+
+  if (isIos()) {
+    iosHint?.classList.remove('hidden');
+  }
+
+  if (deferredPrompt) {
+    installBtn?.classList.remove('hidden');
+  }
+}
+
+// Capture beforeinstallprompt early
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
   deferredPrompt = e;
-
-  if (!hasDismissedInstall && installBanner) {
-    installBanner.classList.remove('hidden');
-  }
+  installBtn?.classList.remove('hidden');
 });
 
 installBtn?.addEventListener('click', async () => {
@@ -222,6 +254,11 @@ window.addEventListener('appinstalled', () => {
   installBanner?.classList.add('hidden');
   deferredPrompt = null;
 });
+
+// Show banner for mobile users even if beforeinstallprompt never fires
+if (isMobile()) {
+  showInstallBanner();
+}
 
 // Tip Modal
 const tipBtn = document.getElementById('tip-btn');
