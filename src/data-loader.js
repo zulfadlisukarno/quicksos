@@ -1,17 +1,17 @@
 let nationalData = null;
 const stateCache = {};
 
-export async function loadNationalData() {
+export async function loadNationalData(dataBase = './data/') {
   if (nationalData) return nationalData;
-  const response = await fetch('./data/national.json');
+  const response = await fetch(`${dataBase}national.json`);
   nationalData = await response.json();
   return nationalData;
 }
 
-export async function loadStateData(stateSlug) {
+export async function loadStateData(stateSlug, dataBase = './data/') {
   if (stateCache[stateSlug]) return stateCache[stateSlug];
   try {
-    const response = await fetch(`./data/states/${stateSlug}.json`);
+    const response = await fetch(`${dataBase}states/${stateSlug}.json`);
     if (!response.ok) return null;
     stateCache[stateSlug] = await response.json();
     return stateCache[stateSlug];
@@ -68,8 +68,8 @@ export function normalizeDistrictName(districtName) {
   return districtName.toLowerCase().trim().replace(/\s+/g, '-');
 }
 
-export async function getEmergencyContacts(address) {
-  const national = await loadNationalData();
+export async function getEmergencyContacts(address, dataBase = './data/') {
+  const national = await loadNationalData(dataBase);
   
   if (!address) {
     return {
@@ -82,7 +82,7 @@ export async function getEmergencyContacts(address) {
   }
   
   const stateSlug = normalizeStateName(address.state);
-  const stateData = await loadStateData(stateSlug);
+  const stateData = await loadStateData(stateSlug, dataBase);
   
   if (!stateData) {
     return {

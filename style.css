@@ -415,3 +415,78 @@ footer {
 .retry-btn:hover {
   background: var(--primary-dark);
 }
+
+/* Debug Page */
+.debug-section {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.debug-section h2 {
+  font-size: 1rem;
+  color: var(--text);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.debug-status {
+  font-size: 0.9rem;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  background: var(--bg);
+}
+
+.debug-status.error {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.debug-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+}
+
+.debug-table th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-light);
+  padding: 6px 8px 6px 0;
+  vertical-align: top;
+  width: 42%;
+}
+
+.debug-table td {
+  padding: 6px 0;
+  word-break: break-word;
+  vertical-align: top;
+}
+
+.debug-raw {
+  font-size: 0.8rem;
+}
+
+.debug-raw summary {
+  cursor: pointer;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.debug-raw pre {
+  background: #111827;
+  color: #e5e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+}

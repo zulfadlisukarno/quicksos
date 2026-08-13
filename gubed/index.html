@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>QuickSOS Debug</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>🛠️ QuickSOS Debug</h1>
+      <p class="tagline">Butiran pengesanan lokasi</p>
+    </header>
+
+    <main>
+      <div id="env-section" class="debug-section">
+        <h2>Persekitaran</h2>
+        <div class="debug-body"></div>
+      </div>
+
+      <div id="geo-section" class="debug-section">
+        <h2>Geolokasi</h2>
+        <div class="debug-body"></div>
+      </div>
+
+      <div id="geocode-section" class="debug-section">
+        <h2>Reverse Geocode (Nominatim)</h2>
+        <div class="debug-body"></div>
+      </div>
+
+      <div id="lookup-section" class="debug-section">
+        <h2>Carian Data</h2>
+        <div class="debug-body"></div>
+      </div>
+
+      <div id="timings-section" class="debug-section">
+        <h2>Masa Setiap Langkah</h2>
+        <div class="debug-body"></div>
+      </div>
+
+      <button id="retry-btn" class="search-btn">Cuba Lagi</button>
+    </main>
+
+    <footer>
+      <p>Debug — bukan untuk kegunaan awam</p>
+    </footer>
+  </div>
+
+  <script type="module" src="./gubed.js"></script>
+</body>
+</html>
