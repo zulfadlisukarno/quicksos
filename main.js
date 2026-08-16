@@ -1,4 +1,5 @@
 import { getEmergencyContacts } from './src/data-loader.js';
+import { reverseGeocode } from './src/geocode.js';
 
 const statusText = document.getElementById('status-text');
 const spinner = document.getElementById('spinner');
@@ -108,19 +109,6 @@ function renderFacilities(facilities, stateFacilities, level) {
   });
 }
 
-async function reverseGeocode(lat, lon) {
-  try {
-    const response = await fetch(
-      `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}&zoom=10&accept-language=ms`
-    );
-    const data = await response.json();
-    return data.address;
-  } catch (error) {
-    console.error('Geocoding error:', error);
-    return null;
-  }
-}
-
 async function getLocation() {
   if (!navigator.geolocation) {
     showLocationStatus('Geolocation tidak disokong oleh pelayar anda', true);
@@ -135,12 +123,13 @@ async function getLocation() {
       
       showLocationStatus('Mencari nombor kecemasan untuk kawasan anda...');
       
-      const address = await reverseGeocode(latitude, longitude);
+      const geoResult = await reverseGeocode(latitude, longitude);
+      const address = geoResult ? geoResult.address : null;
       
       console.log('Address:', address);
       
-      const district = address.district || address.city || address.town || address.village || address.county || address.suburb || address.neighbourhood || '';
-      const state = address.state || '';
+      const district = address ? (address.district || address.city || address.town || address.village || address.county || address.suburb || address.neighbourhood || '') : '';
+      const state = address ? (address.state || '') : '';
       
       const locationText = district && state 
         ? `${district}, ${state}`

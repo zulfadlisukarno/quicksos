@@ -4,7 +4,7 @@ Emergency numbers for Malaysia at your fingertips. A Progressive Web App (PWA) t
 
 ## Features
 
-- **Auto-detect location** — Uses browser geolocation + OpenStreetMap Nominatim to find your district
+- **Auto-detect location** — Uses browser geolocation + Photon (OpenStreetMap) reverse geocoding with Nominatim fallback to find your district
 - **Local emergency numbers** — Shows hospital, police (IPD), bomba, and APM for your specific district
 - **District aliases** — Search "Gunong" → Bachok, "KB" → Kota Bharu, etc.
 - **Fallback chain** — District → State → National numbers if location unavailable
@@ -101,7 +101,7 @@ Emergency numbers for Malaysia at your fingertips. A Progressive Web App (PWA) t
 
 - Vanilla HTML/CSS/JS (no framework)
 - Vite (dev server & build)
-- OpenStreetMap Nominatim (free geocoding)
+- Photon (free geocoding) with Nominatim fallback
 - PWA with service worker
 
 ## Data Sources
@@ -155,7 +155,7 @@ quicksos/
 ## How It Works
 
 1. **Geolocation** → Browser gets lat/lon
-2. **Reverse geocode** → Nominatim returns state + district
+2. **Reverse geocode** → Photon returns state + district (Nominatim as fallback)
 3. **Data lookup** → Match against local JSON data
 4. **Display** → Show hospital, police, bomba, APM with tap-to-call
 

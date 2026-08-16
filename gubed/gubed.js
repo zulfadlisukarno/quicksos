@@ -4,6 +4,7 @@ import {
   normalizeDistrictName,
   getEmergencyContacts,
 } from '../src/data-loader.js';
+import { reverseGeocode } from '../src/geocode.js';
 
 const DATA_BASE = '../data/';
 
@@ -59,14 +60,6 @@ function getPosition(options) {
   return new Promise((resolve, reject) => {
     navigator.geolocation.getCurrentPosition(resolve, reject, options);
   });
-}
-
-async function reverseGeocode(lat, lon) {
-  const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}&zoom=10&accept-language=ms`;
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  const data = await response.json();
-  return { url, data };
 }
 
 function inspectDistrictMatch(stateData, districtName) {
@@ -235,24 +228,33 @@ async function runGeocode(position, timings, t0) {
     return;
   }
 
-  const address = geocodeResult.data.address;
-  const lat = geocodeResult.data.lat || latitude;
-  const lon = geocodeResult.data.lon || longitude;
+  if (!geocodeResult) {
+    render('geocode', {
+      status: 'error',
+      message: 'Geocoding gagal — kedua-dua Photon dan Nominatim tidak dapat dipanggil',
+      rows: [['Masa (ms)', timings.reverseGeocode]],
+    });
+    renderTimings(timings);
+    return;
+  }
+
+  const address = geocodeResult.address;
   const stateRaw = address.state || '';
   const distRaw = address.district || address.city || address.town || address.village || address.county || address.suburb || address.neighbourhood || '';
 
   render('geocode', {
     rows: [
       ['Status', 'Berjaya'],
+      ['Provider', geocodeResult.provider],
       ['URL', geocodeResult.url],
       ['Masa (ms)', timings.reverseGeocode],
-      ['Lat/Lon (dipulangkan)', `${lat}, ${lon}`],
-      ['Nama paparan', geocodeResult.data.display_name || '—'],
+      ['Lat/Lon (dipulangkan)', `${latitude}, ${longitude}`],
+      ['Nama paparan', geocodeResult.displayName || '—'],
       ['Negeri mentah', stateRaw || '—'],
       ['Daerah mentah', distRaw || '—'],
       ['Negeri dinormalkan', normalizeStateName(stateRaw) || '—'],
     ],
-    raw: { url: geocodeResult.url, ...geocodeResult.data },
+    raw: { url: geocodeResult.url, provider: geocodeResult.provider, ...geocodeResult.raw },
   });
 
   await runLookupData(address, timings, t0);
