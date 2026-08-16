@@ -45,6 +45,6 @@ npm run preview  # Preview production build
 4. Verify phone numbers against official government sources (KKM, RMP, Bomba, Civil Defence)
 
 ## Common Pitfalls
-- Nominatim district names often don't match official district names exactly — aliases are critical
+- Geocoding district names often don't match official district names exactly — aliases are critical
 - The `public/data/` directory is what gets served in production; `src/data/` is for development/reference. Keep them identical.
 - When adding a new contact type, update both `renderFacilities()` in `main.js` and the data schema.
