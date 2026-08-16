@@ -218,6 +218,7 @@ async function runGeocode(position, timings, t0) {
     geocodeResult = await reverseGeocode(latitude, longitude);
     timings.reverseGeocode = Math.round(performance.now() - t1);
   } catch (err) {
+    timings.reverseGeocode = Math.round(performance.now() - t1);
     render('geocode', {
       status: 'error',
       message: String(err && err.message || err),
