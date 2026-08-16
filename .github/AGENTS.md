@@ -6,7 +6,7 @@ QuickSOS is a Progressive Web App (PWA) that displays Malaysian emergency contac
 ## Tech Stack
 - Vanilla HTML/CSS/JS — no frameworks
 - Vite for dev server and build
-- OpenStreetMap Nominatim for reverse geocoding
+- Photon for reverse geocoding (Nominatim fallback)
 - Service worker for offline PWA support
 
 ## Development Commands
@@ -34,14 +34,14 @@ npm run preview  # Preview production build
 - **Bump the cache version** (e.g., `quicksos-v6` → `quicksos-v7`) whenever deploying a new build to avoid stale assets
 
 ### Geolocation & Fallbacks
-- `main.js` handles browser geolocation → Nominatim reverse geocode → `src/data-loader.js` lookup
+- `main.js` handles browser geolocation → Photon reverse geocode (Nominatim fallback) → `src/data-loader.js` lookup
 - Fallback chain: District → State facilities → National hotlines
 - Manual selector in `index.html` allows users to pick state/district if geolocation fails
 
 ### Adding New State/District Data
 1. Create `src/data/states/<state-slug>.json` following the schema in existing files
 2. Mirror it to `public/data/states/<state-slug>.json`
-3. Update `src/data-loader.js` `normalizeStateName()` if the state has unusual naming in Nominatim
+3. Update `src/data-loader.js` `normalizeStateName()` if the state has unusual naming in the geocoding response
 4. Verify phone numbers against official government sources (KKM, RMP, Bomba, Civil Defence)
 
 ## Common Pitfalls
